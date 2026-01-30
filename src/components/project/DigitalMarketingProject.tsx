@@ -74,7 +74,7 @@ const DigitalMarketingProject = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="col-xl-2 col-lg-6">
+                        <div className="col-xl-2 col-lg-6 d-none d-md-block">
                             <div className="dgm-project-arrow text-start text-xl-end z-index-1 mb-30 tp_fade_anim">
                                 <button className="dgm-project-prev">
                                     <span><LeftArrowIcon width="16" height="16" /></span>

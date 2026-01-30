@@ -9,6 +9,7 @@ import ContactUsArea from '@/components/contacts/ContactUsArea';
 import BackToTop from '@/components/shared/BackToTop/BackToTop';
 import ContactUsHero from '@/components/contacts/ContactUsHero';
 import InnerPageHeader from '@/layouts/headers/InnerPageHeader';
+import DigitalMarketingFooter from '@/layouts/footers/DigitalMarketingFooter';
 
 const ContactUsMain = () => {
     return (
@@ -30,7 +31,7 @@ const ContactUsMain = () => {
                                 <ContactUsAbout />
                                 <ContactUsArea />
                             </main>
-                            <CreativeAgencyFooter bgColor="#1B1B1D" />
+                            <DigitalMarketingFooter />
                         </div>
                     </div>
                 </AnimationWrapper>

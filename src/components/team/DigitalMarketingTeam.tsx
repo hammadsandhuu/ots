@@ -1,10 +1,28 @@
+"use client"
+import { Pagination } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css/pagination";
 import DigitalMarketingTeamCard from './subComponents/DigitalMarketingTeamCard';
 import { TeamTitleUnderline } from '@/svg/TeamTitleUnderline';
 import { ArrowSvg } from '@/svg';
 import Link from 'next/link';
 import { teamMembers } from '@/data/Team';
+import { useEffect, useState } from 'react';
 
 const DigitalMarketingTeam = () => {
+    const [isMobile, setIsMobile] = useState(false);
+
+    useEffect(() => {
+        const checkMobile = () => {
+            setIsMobile(window.innerWidth < 768);
+        };
+        
+        checkMobile();
+        window.addEventListener('resize', checkMobile);
+        
+        return () => window.removeEventListener('resize', checkMobile);
+    }, []);
+
     return (
         <div className="dgm-team-area pt-120 pb-80">
             <div className="container container-1330">
@@ -40,14 +58,44 @@ const DigitalMarketingTeam = () => {
                         </div>
                     </div>
                 </div>
-                <div className="dgm-team-wrap">
-                    <div className="row">
-                        {/* Render team member cards */}
-                        {teamMembers.map((member, index) => (
-                            <DigitalMarketingTeamCard member={member} key={member.id} index={index} />
-                        ))}
+                
+                {/* Desktop Grid View */}
+                {!isMobile && (
+                    <div className="dgm-team-wrap">
+                        <div className="row">
+                            {teamMembers.map((member, index) => (
+                                <div key={member.id} className="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                                    <DigitalMarketingTeamCard member={member} index={index} />
+                                </div>
+                            ))}
+                        </div>
                     </div>
-                </div>
+                )}
+
+                {/* Mobile Slider View */}
+                {isMobile && (
+                    <div className="dgm-team-slider-wrap">
+                        <Swiper
+                            spaceBetween={20}
+                            slidesPerView={1}
+                            loop={true}
+                            speed={1500}
+                            pagination={{
+                                el: '.dgm-team-pagination',
+                                clickable: true,
+                            }}
+                            modules={[Pagination]}
+                            className="dgm-team-active"
+                        >
+                            {teamMembers.map((member, index) => (
+                                <SwiperSlide key={member.id}>
+                                    <DigitalMarketingTeamCard member={member} index={index} />
+                                </SwiperSlide>
+                            ))}
+                        </Swiper>
+                        <div className="dgm-team-pagination text-center mt-40"></div>
+                    </div>
+                )}
             </div>
         </div>
     );

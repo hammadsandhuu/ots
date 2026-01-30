@@ -16,10 +16,10 @@ const ContactUsArea = () => {
       speed: "1.2",
     },
     {
-      title: "Germany",
+      title: "KSA",
       img: thumb2,
-      email: "sydney@contact.com",
-      phone: "(+91) 76001726",
+      email: "Shahr.azim@otsksa.com",
+      phone: "+ 4 (20) 7700 1007",
       mapLink: "https://www.google.com/maps",
       btnClass: "tp-btn-yellow-green active w-100",
       speed: ".9",

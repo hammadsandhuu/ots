@@ -34,10 +34,73 @@ const DigitalMarketingHero = () => {
 
     return (
         <>
+            {/* Mobile styles override */}
+            <style jsx global>{`
+                @media (max-width: 991.98px) {
+                    .dgm-hero-content .dgm-hero-subtitle,
+                    .dgm-hero-content .dgm-hero-title,
+                    .dgm-hero-content .dgm-hero-desc,
+                    .dgm-hero-funfact-wrap .dgm-hero-funfact span,
+                    .dgm-hero-funfact-wrap .dgm-hero-funfact p,
+                    .dgm-hero-social-box .dgm-hero-social-text span,
+                    .dgm-hero-social-box .dgm-hero-social a span {
+                        color: #fff !important;
+                    }
+                    .dgm-hero-content .dgm-hero-desc {
+                        font-size: 16px;
+                        line-height: 1.6;
+                        margin-top: 15px;
+                        margin-bottom: 20px;
+                        opacity: 0.9;
+                    }
+                    .dgm-hero-ptb {
+                        border-top-left-radius: 0 !important;
+                        border-top-right-radius: 0 !important;
+                    }
+                    .dgm-hero-btn-wrap .tp-btn-black-square {
+                        background-color: var(--tp-common-secondary) !important;
+                        border-color: var(--tp-common-secondary) !important;
+                    }
+                    .dgm-hero-top {
+                        padding-top: 0 !important;
+                    }
+                }
+            `}</style>
             <div className="dgm-hero-top pt-20">
                 <div className="dgm-hero-ptb grey-bg-2 fix z-index-1 p-relative">
                     <div className="dgm-hero-bg"></div>
-                    <div className="dgm-hero-rotate-text">
+                    {/* Mobile full-screen video background */}
+                    <div className="dgm-hero-video-mobile d-lg-none">
+                        <video
+                            autoPlay
+                            muted
+                            loop
+                            playsInline
+                            style={{
+                                position: 'absolute',
+                                top: 0,
+                                left: 0,
+                                width: '100%',
+                                height: '100%',
+                                objectFit: 'cover',
+                                zIndex: -1,
+                            }}
+                        >
+                            <source src="/assets/video/2.mp4" type="video/mp4" />
+                        </video>
+                        <div
+                            style={{
+                                position: 'absolute',
+                                top: 0,
+                                left: 0,
+                                width: '100%',
+                                height: '100%',
+                                backgroundColor: 'rgba(0, 0, 0, 0.5)',
+                                zIndex: -1,
+                            }}
+                        />
+                    </div>
+                    <div className="dgm-hero-rotate-text d-none d-md-block">
                         <span>Award winning agency</span>
                     </div>
                     <div className="dgm-hero-social-box">
@@ -68,7 +131,12 @@ const DigitalMarketingHero = () => {
                                         Global <Image className="dgm-hero-title-mike d-none d-md-inline-block" src={heroMike} alt="hero-image" />
                                         Freight Forwarding Services
                                     </h4>
-                                    <div className="tp_fade_anim" data-delay=".7">
+                                    {/* Description - shown on mobile only */}
+                                    <p className="dgm-hero-desc d-lg-none tp_fade_anim" data-delay=".6">
+                                        Your trusted partner for seamless global logistics and freight forwarding solutions.
+                                    </p>
+                                    {/* Button - hidden on mobile, shown on desktop */}
+                                    <div className="dgm-hero-btn-wrap tp_fade_anim d-none d-lg-block" data-delay=".7">
                                         <Link className="tp-btn-black-square" href="/contact">
                                             <span>
                                                 <span className="text-1">Get in Touch</span>
@@ -84,7 +152,7 @@ const DigitalMarketingHero = () => {
                                 <div className="dgm-hero-funfact-wrap">
                                     <div className="row">
                                         {funFacts.map((item) => (
-                                            <div key={item.id} className="col-xl-4 col-lg-6 col-md-4 col-sm-6">
+                                            <div key={item.id} className="col-xl-4 col-lg-6 col-md-4 col-sm-6 col-6">
                                                 <div
                                                     className="dgm-hero-funfact tp_fade_anim mb-40"
                                                     data-delay={item.delay}
@@ -100,10 +168,23 @@ const DigitalMarketingHero = () => {
                                         ))}
                                     </div>
                                 </div>
+                                {/* Button - shown on mobile only, after counter */}
+                                <div className="dgm-hero-btn-wrap tp_fade_anim d-none mt-20" data-delay=".7">
+                                    <Link className="tp-btn-black-square" href="/contact">
+                                        <span>
+                                            <span className="text-1">Get in Touch</span>
+                                            <span className="text-2">Get in Touch</span>
+                                        </span>{" "}
+                                        <i>
+                                            <ArrowFour />
+                                            <ArrowFour />
+                                        </i>
+                                    </Link>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div className="dgm-hero-thumb anim-zoomin-wrap">
+                    <div className="dgm-hero-thumb anim-zoomin-wrap d-none d-lg-block">
                         <div className='anim-zoomin-wrap'>
                             <div className="anim-zoomin">
                                 <video
@@ -119,7 +200,7 @@ const DigitalMarketingHero = () => {
                                 </video>
                             </div>
                         </div>
-                        <div className="dgm-hero-text-box" style={{ backgroundImage: `url(${heroTextShape.src})` }}>
+                        <div className="dgm-hero-text-box  d-none d-md-block" style={{ backgroundImage: `url(${heroTextShape.src})` }}>
                             <svg xmlns="http://www.w3.org/2000/svg" version="1.0" width="100.000000pt" height="30.000000pt" viewBox="0 0 126.000000 37.000000" preserveAspectRatio="xMidYMid meet">
                                 <g transform="translate(0.000000,37.000000) scale(0.100000,-0.100000)" fill="var(--tp-common-secondary)" stroke="none">
                                     <path d="M60 353 c-31 -12 -50 -37 -49 -67 0 -17 3 -24 6 -16 13 41 29 60 56 70 42 14 97 12 127 -5 l25 -15 -30 6 c-74 13 -112 8 -142 -22 -25 -25 -27 -48 -12 -114 2 -8 -1 -14 -8 -13 -20 4 -38 -37 -22 -51 6 -6 10 -6 7 -1 -3 6 -2 19 3 30 6 15 8 10 8 -22 1 -33 7 -46 27 -62 15 -12 22 -21 17 -21 -17 0 -64 41 -58 51 4 5 1 9 -4 9 -18 0 -13 -17 13 -47 22 -25 31 -28 88 -28 70 0 113 20 127 57 7 20 9 20 24 -11 13 -27 14 -31 2 -21 -11 9 -15 9 -15 1 0 -16 42 -30 61 -20 9 4 22 22 29 39 15 37 21 37 42 0 9 -17 29 -35 44 -42 38 -18 56 10 49 76 -3 27 -8 53 -11 58 -10 16 9 8 22 -9 7 -10 14 -34 14 -54 0 -24 8 -43 24 -58 20 -19 27 -20 50 -10 27 13 33 27 40 88 2 18 8 36 14 40 6 4 16 27 23 53 27 102 -53 153 -88 57 l-13 -34 1 35 c2 54 0 59 -21 70 -22 12 -65 -4 -55 -20 3 -5 1 -11 -5 -15 -5 -3 -10 -15 -10 -26 0 -25 -3 -24 -38 11 -34 34 -75 39 -110 14 -23 -16 -32 -4 -9 13 30 25 127 18 127 -8 0 -5 5 -9 12 -9 7 0 2 10 -10 23 -34 33 -107 30 -138 -7 -14 -16 -21 -33 -17 -43 5 -12 3 -14 -7 -8 -8 5 -11 4 -7 -2 4 -6 0 -28 -7 -49 -16 -42 -17 -38 -18 44 0 49 -3 55 -32 73 -30 18 -110 25 -146 12z m474 -22 c16 -18 15 -18 -19 -7 -27 8 -31 12 -17 18 9 3 17 7 18 7 0 1 8 -7 18 -18z m-326 -27 c12 -8 22 -24 22 -35 0 -23 -27 -36 -43 -20 -15 15 -47 14 -47 -2 0 -8 18 -19 40 -26 50 -15 69 -48 52 -86 -14 -31 -48 -45 -108 -45 -66 0 -107 48 -68 81 13 11 21 10 49 -5 32 -18 60 -15 53 6 -2 6 -26 17 -53 27 -49 16 -50 17 -50 56 0 32 5 42 25 52 35 18 101 16 128 -3z m194 -4 c37 -28 49 -68 46 -141 -3 -57 -5 -64 -25 -67 -15 -2 -25 5 -35 25 -19 39 -43 41 -56 4 -7 -21 -18 -31 -31 -31 -67 0 -40 191 32 220 33 13 42 12 69 -10z m138 -29 c6 -40 30 -55 30 -19 0 33 22 61 46 57 29 -6 30 -61 2 -107 -13 -20 -23 -52 -23 -71 0 -43 -23 -60 -60 -43 -24 11 -26 16 -20 50 5 32 2 41 -19 62 -19 17 -26 34 -26 60 0 44 6 52 40 48 20 -2 26 -10 30 -37z m-70 -191 c0 -10 -10 -25 -22 -31 -22 -12 -22 -11 -5 8 9 11 17 25 17 31 0 7 2 12 5 12 3 0 5 -9 5 -20z m-353 -36 c-3 -3 -12 -4 -19 -1 -8 3 -5 6 6 6 11 1 17 -2 13 -5z" />

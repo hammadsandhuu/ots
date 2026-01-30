@@ -1,4 +1,5 @@
 "use client"
+import logoWhite from "../../../public/assets/img/logo/logo-1.png";
 import logoBlack from "../../../public/assets/img/logo/logo-1.png";
 import OffCanvasPanel from "@/components/offcanvas/OffCanvasPanel";
 import useStickyHeader from '@/hooks/useStickyHeader';
@@ -22,7 +23,8 @@ const DigitalMarketingHeader = () => {
                             <div className="col-xl-1 col-lg-5 col-5">
                                 <div className="tp-header-logo">
                                     <Link href="/">
-                                        <Image className="logo-white" width={120} src={logoBlack} alt="logo" />
+                                        <Image className="logo-white" width={120} src={logoWhite} alt="logo" />
+                                        <Image className="logo-black" style={{ display: 'none' }} width={120} src={logoBlack} alt="logo" />
                                     </Link>
                                 </div>
                             </div>
