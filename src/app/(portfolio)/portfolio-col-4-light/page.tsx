@@ -1,4 +1,4 @@
-import PortfolioColFourMain from '@/pages/portfolios/portfolio-col-4/PortfolioColFourMain';
+import PortfolioColFourMain from '@/pages/portfolio/PortfolioColFourMain';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {

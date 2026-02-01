@@ -1,4 +1,4 @@
-import PortfolioDetailsGallery from '@/pages/portfolios/portfolio-details-gallery/PortfolioDetailsGallery';
+import PortfolioDetailsGallery from '@/pages/portfolio/portfolio-details/PortfolioDetailsGallery';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
