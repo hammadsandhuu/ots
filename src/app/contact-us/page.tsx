@@ -1,4 +1,4 @@
-import ContactUsMain from '@/pages/contacts/contact-us/ContactUsMain';
+import ContactUsMain from '@/pages/contact-us/ContactUsMain';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {

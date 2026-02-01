@@ -1,4 +1,4 @@
-import ServiceDetailsTwoMain from '@/pages/services/service-details-2/ServiceDetailsTwoMain';
+import ServiceDetailsTwoMain from '@/pages/services/service-details/ServiceDetailsTwoMain';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
