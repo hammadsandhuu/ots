@@ -7,7 +7,7 @@ const DigitalMarketingStep = () => {
                 <div className="row align-items-end">
                     <div className="col-xl-3 col-lg-4 col-md-6">
                         <div className="dgm-step-item p-relative dgm-step-space-1 mb-80">
-                            <h4 className="dgm-step-title mb-25">Explore the <br /> Working process</h4>
+                            <h4 className="dgm-step-title mb-25">From Pickup  <br /> to Delivery (Made Easy)</h4>
                             <Link className="tp-btn-secondary green-solid" href="/contact">
                                 <i>
                                     <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -16,8 +16,8 @@ const DigitalMarketingStep = () => {
                                     </svg>
                                 </i>
                                 <span>
-                                    <span className="text-1">Call for Joining</span>
-                                    <span className="text-2">Call for Joining</span>
+                                    <span className="text-1">Get a Quote</span>
+                                    <span className="text-2">Get a Quote</span>
                                 </span>
                             </Link>
                         </div>
@@ -25,33 +25,27 @@ const DigitalMarketingStep = () => {
                     <div className="col-xl-3 col-lg-4 col-md-6">
                         <div className="dgm-step-item p-relative dgm-step-space-2 mb-80">
                             <span className="dgm-step-number">01</span>
-                            <h4 className="dgm-step-title-sm">Research</h4>
+                            <h4 className="dgm-step-title-sm">Plan</h4>
                             <p>
-                                Focussed on understanding
-                                your business requirements,
-                                users and problems
+                            We assess your shipment and choose the best route, carrier, and timing.
                             </p>
                         </div>
                     </div>
                     <div className="col-xl-3 col-lg-4 col-md-6">
                         <div className="dgm-step-item p-relative dgm-step-space-3 mb-80">
                             <span className="dgm-step-number">02</span>
-                            <h4 className="dgm-step-title-sm">Ideation & design</h4>
+                            <h4 className="dgm-step-title-sm">Ship and Track</h4>
                             <p>
-                                In this stage we work closely to
-                                come up with lots of solutions &
-                                finalize design
+                            We handle everything and monitor your cargo from start to finish.
                             </p>
                         </div>
                     </div>
                     <div className="col-xl-3 col-lg-4 col-md-6">
                         <div className="dgm-step-item p-relative dgm-step-space-4 mb-80">
                             <span className="dgm-step-number">03</span>
-                            <h4 className="dgm-step-title-sm">Development</h4>
+                            <h4 className="dgm-step-title-sm">Deliver</h4>
                             <p>
-                                I develop your product in
-                                Webflow and help you with
-                                maintaining it.
+                            Your shipment arrives safely, on time, with full support until delivery is complete.
                             </p>
                         </div>
                     </div>

@@ -1,4 +1,4 @@
-import ServiceOneMain from '@/pages/services/service-1/ServiceOneMain';
+import ServiceFourMain from '@/pages/services/ServiceFourMain';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 
 const page = () => {
     return (
-        <ServiceOneMain />
+        <ServiceFourMain />
     );
 };
 

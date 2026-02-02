@@ -1,4 +1,4 @@
-import ProjectDetailsGalleryMain from '@/pages/projects/ProjectDetailsGalleryMain';
+import ProjectDetailsGalleryMain from '@/components/project/ProjectDetailsGalleryMain';
 import { getProjectDetailBySlug, getAllProjectDetailSlugs } from '@/data/projectDetailsData';
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';

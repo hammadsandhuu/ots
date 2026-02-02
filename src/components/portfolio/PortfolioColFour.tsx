@@ -1,11 +1,11 @@
 import portfolioData from '@/data/portfolioData';
-import Image from 'next/image';
+import Image, { StaticImageData } from 'next/image';
 import Link from 'next/link';
 
 interface PortfolioItem {
     id: number;
     title: string;
-    image: { src: string } | string;
+    image: StaticImageData | string;
     link: string;
     category?: string;
     categories?: string[];
