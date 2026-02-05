@@ -1,4 +1,4 @@
-import ArchitectureHubMain from '@/pages/homes/architecture-hub/ArchitectureHubMain';
+import ArchitectureHubMain from '@/views/homes/architecture-hub/ArchitectureHubMain';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {

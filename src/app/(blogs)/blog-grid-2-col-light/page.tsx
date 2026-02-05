@@ -1,4 +1,4 @@
-import BlogGridTwoCol from '@/pages/blogs/blog-grid-2-col/BlogGridTwoCol';
+import BlogGridTwoCol from '@/views/blogs/blog-grid-2-col/BlogGridTwoCol';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {

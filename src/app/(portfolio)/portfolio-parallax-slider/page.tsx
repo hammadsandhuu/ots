@@ -1,4 +1,4 @@
-import PortfolioParallaxSlider from '@/pages/portfolios/portfolio-parallax-slider/PortfolioParallaxSlider';
+import PortfolioParallaxSlider from '@/views/portfolios/portfolio-parallax-slider/PortfolioParallaxSlider';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {

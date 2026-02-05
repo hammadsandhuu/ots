@@ -1,4 +1,4 @@
-import PortfolioSlicerElegant from '@/pages/portfolios/portfolio-slider-elegant/PortfolioSlicerElegant';
+import PortfolioSlicerElegant from '@/views/portfolios/portfolio-slider-elegant/PortfolioSlicerElegant';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {

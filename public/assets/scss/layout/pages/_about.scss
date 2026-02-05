@@ -874,7 +874,7 @@
             background-repeat: no-repeat;
             display: inline-block;
             border: 1px solid rgba(20, 20, 20, 0.06);
-            border-top: 4px solid var(--tp-common-red-2);
+            border-top: 4px solid var(--tp-common-primary);
             @media #{$xs}{
                 width: 100%;
             }
@@ -885,7 +885,7 @@
                 display: inline-block;
                 letter-spacing: 1px;
                 text-transform: uppercase;
-                color: var(--tp-common-red-2);
+                color: var(--tp-common-primary);
                 font-family: var(--tp-ff-clash-medium);
             }
             & h4{
@@ -893,7 +893,7 @@
                 line-height: .69;
                 margin-bottom: 0;
                 text-transform: uppercase;
-                color: var(--tp-common-red-2);
+                color: var(--tp-common-primary);
                 font-family: var(--tp-ff-clash-semibold);
             }
         }
@@ -998,9 +998,9 @@
     &-funfact{
         &-color{
             & .crp-hero-funfact-line{
-                background-color: var(--tp-common-red-3);
+                background-color: var(--tp-common-primary);
                 &::before{
-                    background-color: var(--tp-common-red-3);
+                    background-color: var(--tp-common-primary);
                 }
             }
         }

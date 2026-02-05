@@ -1,4 +1,4 @@
-import FaqMain from '@/pages/faq/FaqMain';
+import FaqMain from '@/views/faq/FaqMain';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {

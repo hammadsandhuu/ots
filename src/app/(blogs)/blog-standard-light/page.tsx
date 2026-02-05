@@ -1,4 +1,4 @@
-import BlogStandardMain from '@/pages/blogs/blog-standard/BlogStandardMain';
+import BlogStandardMain from '@/views/blogs/blog-standard/BlogStandardMain';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {

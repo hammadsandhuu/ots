@@ -1930,7 +1930,7 @@
                     & li {
                         & a:hover {
                             border: 1px solid #FF5722;
-                            background-color: var(--tp-common-red-3);
+                            background-color: var(--tp-common-primary);
                             color: var(--tp-common-white);
                         }
                     }
@@ -1940,7 +1940,7 @@
             & .tp-footer-widget-info {
                 & a {
                     &:hover {
-                        color: var(--tp-common-red-3);
+                        color: var(--tp-common-primary);
                     }
                 }
             }
@@ -1953,36 +1953,36 @@
 
     & .tp-btn-yellow-green.sidebar-btn {
         color: var(--tp-common-white);
-        background-color: var(--tp-common-red-3);
+        background-color: var(--tp-common-primary);
     }
 
     & .sidebar-widget-author-social a:hover span {
-        color: var(--tp-common-red-3);
+        color: var(--tp-common-primary);
     }
 
     & .tagcloud a:hover {
         color: var(--tp-common-white);
-        background-color: var(--tp-common-red-3);
+        background-color: var(--tp-common-primary);
     }
 
     & .postbox-details-list ul li i {
-        color: var(--tp-common-red-3);
+        color: var(--tp-common-primary);
     }
 
     & .postbox-details-social a:hover {
         color: var(--tp-common-white);
-        background-color: var(--tp-common-red-3);
+        background-color: var(--tp-common-primary);
     }
 
     & .postbox__comment-reply a:hover {
         color: var(--tp-common-white);
-        border-color: var(--tp-common-red-3);
-        background-color: var(--tp-common-red-3);
+        border-color: var(--tp-common-primary);
+        background-color: var(--tp-common-primary);
     }
 
     & .postbox-details-input input:focus,
     .postbox-details-input textarea:focus {
-        border-color: var(--tp-common-red-3);
+        border-color: var(--tp-common-primary);
     }
 
     & .pp-project-item-title {
@@ -2021,7 +2021,7 @@
 
     & .pp-service-details-process-item span {
         color: var(--tp-common-white);
-        background-color: var(--tp-common-red-2);
+        background-color: var(--tp-common-primary);
     }
 
     & .tp-portfolio-slicer-meta {
@@ -2084,7 +2084,7 @@
 
                     &:hover {
                         color: var(--tp-common-white);
-                        background-color: var(--tp-common-red-3);
+                        background-color: var(--tp-common-primary);
                     }
                 }
             }
@@ -2115,7 +2115,7 @@
         color: var(--tp-common-white);
 
         &:hover {
-            color: var(--tp-common-red-2);
+            color: var(--tp-common-primary);
         }
     }
 
@@ -2463,7 +2463,7 @@
 
     & .pp-service-details-process-subtitle {
         background: #03030312;
-        color: var(--tp-common-red-2);
+        color: var(--tp-common-primary);
     }
 
     & .pp-service-details-process-title {
@@ -2488,7 +2488,7 @@
         color: var(--tp-common-black);
 
         &:hover {
-            color: var(--tp-common-red-2);
+            color: var(--tp-common-primary);
         }
     }
 
@@ -2603,11 +2603,11 @@
     }
 
     & .sidebar-widget-category ul li a:hover span:last-child {
-        color: var(--tp-common-red-3);
+        color: var(--tp-common-primary);
     }
 
     & .sidebar-widget-category ul li a:hover {
-        color: var(--tp-common-red-3);
+        color: var(--tp-common-primary);
     }
 
     & .rc-post-category a {
@@ -2924,7 +2924,7 @@
 
         &:focus {
             background: transparent;
-            border-color: var(--tp-common-red-3);
+            border-color: var(--tp-common-primary);
         }
     }
 
@@ -3660,7 +3660,7 @@
 
     &:hover {
         color: var(--tp-common-white);
-        background-color: var(--tp-common-red-3);
+        background-color: var(--tp-common-primary);
     }
 }
  & .creative-footer-style.blog-details-social-style .tp-footer-widget-social a {

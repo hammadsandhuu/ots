@@ -1,6 +1,6 @@
 "use client"
 import { LeftArrowIcon, RightArrowIcon } from '@/svg';
-import projectsData from '@/data/projectData';
+import { projects as projectsData } from '@/data/projects/Projects';
 import Image from 'next/image';
 import Link from 'next/link';
 

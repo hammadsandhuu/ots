@@ -1,4 +1,4 @@
-import CorporateAgencyMain from '@/pages/homes/corporate-agency/CorporateAgencyMain';
+import CorporateAgencyMain from '@/views/homes/corporate-agency/CorporateAgencyMain';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {

@@ -8,7 +8,7 @@
     &-img{
         height: 900px;
         overflow: hidden;
-        border-top: 16px solid var(--tp-common-red-3);
+        border-top: 16px solid var(--tp-common-primary);
         @media #{$xl}{
             height: 700px;
         }

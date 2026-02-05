@@ -1,4 +1,4 @@
-import PortfolioInteractiveHover from '@/pages/portfolios/Portfolio-Interactive/PortfolioInteractiveHover';
+import PortfolioInteractiveHover from '@/views/portfolios/Portfolio-Interactive/PortfolioInteractiveHover';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {

@@ -1,4 +1,4 @@
-import CryptoCurrencyMain from '@/pages/homes/cryptocurrency/CryptoCurrencyMain';
+import CryptoCurrencyMain from '@/views/homes/cryptocurrency/CryptoCurrencyMain';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {

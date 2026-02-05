@@ -2,7 +2,7 @@
 
 import { ButtonBlurFilter, ArrowSvg } from '@/svg';
 import { projectsDT } from '@/types/project-d-t';
-import projectsData from '@/data/projectData';
+import { projects as projectsData } from '@/data/projects/Projects';
 import Image from "next/image";
 import Link from 'next/link';
 

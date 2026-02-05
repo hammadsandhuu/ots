@@ -1,5 +1,5 @@
 
-import ServiceFourMain from '@/pages/services/ServiceFourMain';
+import ServiceFourMain from '@/views/services/ServiceFourMain';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {

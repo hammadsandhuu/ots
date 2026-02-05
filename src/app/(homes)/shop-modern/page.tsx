@@ -1,4 +1,4 @@
-import ShopModernMain from '@/pages/homes/shop-modern/ShopModernMain';
+import ShopModernMain from '@/views/homes/shop-modern/ShopModernMain';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {

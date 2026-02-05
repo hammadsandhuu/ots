@@ -1,5 +1,5 @@
 
-import CreativeStudioMain from '@/pages/homes/creative-studio/CreativeStudioMain';
+import CreativeStudioMain from '@/views/homes/creative-studio/CreativeStudioMain';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {

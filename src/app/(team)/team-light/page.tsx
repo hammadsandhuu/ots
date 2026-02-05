@@ -1,4 +1,4 @@
-import TeamMain from '@/pages/team/team-light/TeamMain';
+import TeamMain from '@/views/team/team-light/TeamMain';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {

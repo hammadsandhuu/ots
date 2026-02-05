@@ -1,12 +1,22 @@
-import image from '../../../public/assets/img/team/team-details.jpg';
+import defaultImage from '../../../public/assets/img/team/team-details.jpg';
 import { DribbleTwo, FacebookTwo, TwitterTwo } from '@/svg';
+import { TeamMemberDetail } from '@/types/team-d-t';
 import AnimatedCounter from '../counter/AnimatedCounter';
 import { EmailIconFive } from '@/svg/EmailIcons';
 import { PhoneIcon } from '@/svg/PhoneIcon';
 import Image from 'next/image';
 import Link from 'next/link';
 
-const TeamDetails = () => {
+interface TeamDetailsProps {
+    member: TeamMemberDetail;
+}
+
+const TeamDetails = ({ member }: TeamDetailsProps) => {
+    const image = member.detailImage || defaultImage;
+    const details = member.details || {};
+    const experience = member.experience || [];
+    const skills = member.skills || [];
+
     return (
         <section className="tp-team-details-area tp-team-details-ptb pb-70">
             <div className="container container-1230">
@@ -14,24 +24,38 @@ const TeamDetails = () => {
                     <div className="col-lg-6">
                         <div className="tp-team-details-wrap">
                             <div className="tp-team-details-thumb mb-40">
-                                <Image style={{ width: "100%", height: "auto" }} src={image} alt="team image" />
+                                <Image style={{ width: "100%", height: "auto" }} src={image} alt={member.name} />
                             </div>
                             <div className="tp-team-details-info d-flex justify-content-between">
                                 <div className="tp-team-details-info-contact">
-                                    <Link href="tel:0123456789"><PhoneIcon /> +(302) 555-0107</Link>
-                                    <Link href="mailto:agntix@studio.com"><EmailIconFive /> agntixs@studio.com</Link>
+                                    {member.phone && (
+                                        <Link href={`tel:${member.phone.replace(/[^0-9+]/g, '')}`}>
+                                            <PhoneIcon /> {member.phone}
+                                        </Link>
+                                    )}
+                                    {member.email && (
+                                        <Link href={`mailto:${member.email}`}>
+                                            <EmailIconFive /> {member.email}
+                                        </Link>
+                                    )}
                                 </div>
                                 <div className="tp-team-details-info-social">
                                     <div className="tp-footer-widget-social">
-                                        <Link href="#">
-                                            <span><FacebookTwo /></span>
-                                        </Link>
-                                        <Link href="#">
-                                            <span><TwitterTwo /></span>
-                                        </Link>
-                                        <Link href="#">
-                                            <span><DribbleTwo /></span>
-                                        </Link>
+                                        {member.socialLinks?.facebook && (
+                                            <Link href={member.socialLinks.facebook}>
+                                                <span><FacebookTwo /></span>
+                                            </Link>
+                                        )}
+                                        {member.socialLinks?.twitter && (
+                                            <Link href={member.socialLinks.twitter}>
+                                                <span><TwitterTwo /></span>
+                                            </Link>
+                                        )}
+                                        {member.socialLinks?.linkedin && (
+                                            <Link href={member.socialLinks.linkedin}>
+                                                <span><DribbleTwo /></span>
+                                            </Link>
+                                        )}
                                     </div>
                                 </div>
                             </div>
@@ -40,48 +64,55 @@ const TeamDetails = () => {
                     <div className="col-lg-6">
                         <div className="tp-team-details-wrapper">
                             <div className="tp-team-details-text">
-                                <span className="tp-team-details-text-sub">Founder & CEO</span>
-                                <h4 className="tp-team-details-text-title">Logan Dang</h4>
-                                <p>As an artist here to solve such issues, we successfully filed several mandamus cases on behalf of more than 250 artwork and their family members and had approved green cards within several months after filing a complaint.</p>
+                                <span className="tp-team-details-text-sub">{member.position}</span>
+                                <h4 className="tp-team-details-text-title">{member.name}</h4>
+                                <p>{member.bio}</p>
                             </div>
                             <div className="tp-team-details-more mb-50">
                                 <h4 className="tp-team-details-more-title">More details</h4>
                                 <ul>
-                                    <li><span>Location:</span>Germany</li>
-                                    <li><span>Position:</span>Founder & CEO</li>
-                                    <li><span>Email:</span>info@example.com</li>
-                                    <li><span>Age:</span>34</li>
-                                    <li><span>Qualification:</span>Master Degree</li>
-                                    <li><span>Gender:</span>Male</li>
+                                    {details.location && <li><span>Location:</span>{details.location}</li>}
+                                    <li><span>Position:</span>{member.position}</li>
+                                    {member.email && <li><span>Email:</span>{member.email}</li>}
+                                    {details.age && <li><span>Age:</span>{details.age}</li>}
+                                    {details.qualification && <li><span>Qualification:</span>{details.qualification}</li>}
+                                    {details.gender && <li><span>Gender:</span>{details.gender}</li>}
                                 </ul>
                             </div>
-                            <div className="tp-team-details-more mb-50">
-                                <h4 className="tp-team-details-more-title">Experience</h4>
-                                <ul>
-                                    <li>Legal employee business law firm (2019-2023)</li>
-                                    <li>Research Assistant University of St.Gallen (2017-2019)</li>
-                                    <li>Corporate Finance & Management (2013-2017)</li>
-                                </ul>
-                            </div>
-                            <div className="tp-team-details-progress mb-50">
-                                <h4 className="tp-team-details-more-title mb-35">My Skills</h4>
-                                <div className="tp-team-details-progress mb-35">
-                                    <h6 className="tp-team-details-progress-title">UX Design</h6>
-                                    <div className="tp-team-details-progress-inner">
-                                        <div className="tp-team-details-progress-bar" role="progressbar" style={{ width: "75%" }} aria-valuenow={75} aria-valuemin={0} aria-valuemax={100}>
-                                            <h6 className="tp-team-details-progress-counter"><AnimatedCounter min={0} max={75} />%</h6>
-                                        </div>
-                                    </div>
+                            {experience.length > 0 && (
+                                <div className="tp-team-details-more mb-50">
+                                    <h4 className="tp-team-details-more-title">Experience</h4>
+                                    <ul>
+                                        {experience.map((exp, index) => (
+                                            <li key={index}>{exp}</li>
+                                        ))}
+                                    </ul>
                                 </div>
-                                <div className="tp-team-details-progress mb-35">
-                                    <h6 className="tp-team-details-progress-title">API Development</h6>
-                                    <div className="tp-team-details-progress-inner">
-                                        <div className="tp-team-details-progress-bar" role="progressbar" style={{ width: "82%" }} aria-valuenow={82} aria-valuemin={0} aria-valuemax={100}>
-                                            <h6 className="tp-team-details-progress-counter"><AnimatedCounter min={0} max={82} />%</h6>
+                            )}
+                            {skills.length > 0 && (
+                                <div className="tp-team-details-progress mb-50">
+                                    <h4 className="tp-team-details-more-title mb-35">My Skills</h4>
+                                    {skills.map((skill, index) => (
+                                        <div key={index} className="tp-team-details-progress mb-35">
+                                            <h6 className="tp-team-details-progress-title">{skill.name}</h6>
+                                            <div className="tp-team-details-progress-inner">
+                                                <div 
+                                                    className="tp-team-details-progress-bar" 
+                                                    role="progressbar" 
+                                                    style={{ width: `${skill.percentage}%` }} 
+                                                    aria-valuenow={skill.percentage} 
+                                                    aria-valuemin={0} 
+                                                    aria-valuemax={100}
+                                                >
+                                                    <h6 className="tp-team-details-progress-counter">
+                                                        <AnimatedCounter min={0} max={skill.percentage} />%
+                                                    </h6>
+                                                </div>
+                                            </div>
                                         </div>
-                                    </div>
+                                    ))}
                                 </div>
-                            </div>
+                            )}
                             <div className="tp-team-details-input mb-50">
                                 <h4 className="tp-team-details-more-title mb-35">Think I can help?</h4>
                                 <div className="tp-team-details-input-content">
@@ -100,7 +131,7 @@ const TeamDetails = () => {
                                         </div>
                                     </div>
                                     <div className="tp-team-details-input-btn">
-                                        <button>Send Message </button>
+                                        <button>Send Message</button>
                                     </div>
                                 </div>
                             </div>

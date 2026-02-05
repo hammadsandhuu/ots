@@ -1,4 +1,4 @@
-import PortfolioCoverflowMain from '@/pages/portfolios/portfolio-coverflow/PortfolioCoverflowMain';
+import PortfolioCoverflowMain from '@/views/portfolios/portfolio-coverflow/PortfolioCoverflowMain';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {

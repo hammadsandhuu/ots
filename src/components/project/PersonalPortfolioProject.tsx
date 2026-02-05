@@ -1,6 +1,6 @@
 import PortfolioProjectCard from './subComponents/PortfolioProjectCard';
 import { projectsDT } from '@/types/project-d-t';
-import projectsData from '@/data/projectData';
+import { projects as projectsData } from '@/data/projects/Projects';
 import { ArrowSvg, ArrowTwo } from '@/svg';
 import Link from 'next/link';
 

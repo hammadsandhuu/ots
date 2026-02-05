@@ -1,5 +1,5 @@
 
-import PortfolioColThreeMain from '@/pages/portfolios/portfolio-col-3/PortfolioColThreeMain';
+import PortfolioColThreeMain from '@/views/portfolios/portfolio-col-3/PortfolioColThreeMain';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {

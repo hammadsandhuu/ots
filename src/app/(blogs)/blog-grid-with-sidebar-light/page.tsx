@@ -1,4 +1,4 @@
-import BlogGridWithSidebar from '@/pages/blogs/blog-grid-with-sidebar/BlogGridWithSidebar';
+import BlogGridWithSidebar from '@/views/blogs/blog-grid-with-sidebar/BlogGridWithSidebar';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {

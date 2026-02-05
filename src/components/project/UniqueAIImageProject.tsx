@@ -2,7 +2,7 @@
 import shapeTwo from '../../../public/assets/img/title-shape/title-shape-1.png';
 import shape from '../../../public/assets/img/home-07/shape/shape-2.png';
 import { useHoverEffect } from '@/hooks/useHoverEffect';
-import projectsData from '@/data/projectData';
+import { projects as projectsData } from '@/data/projects/Projects';
 import { BottomArrow } from '@/svg';
 import Image from 'next/image';
 import Link from 'next/link';

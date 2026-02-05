@@ -1,5 +1,6 @@
 import { MenuItem } from "@/types/menu-d-t";
 import Services from "@/data/Services";
+import sectors from "@/data/sectors/Sectors";
 
 const headerMenuData: MenuItem[] = [
   {
@@ -32,10 +33,6 @@ const headerMenuData: MenuItem[] = [
     pluseIncon: false,
     link: "/service",
     submenus: [
-      {
-        title: "All Services",
-        link: "/service",
-      },
       ...Services.filter((s) => s.slug).map((service) => ({
         title: service.title,
         link: service.link,
@@ -50,28 +47,12 @@ const headerMenuData: MenuItem[] = [
     children: false,
     title: "Sectors",
     pluseIncon: false,
-    link: "/sectors",
+    link: "/sector",
     submenus: [
-      {
-        title: "Agriculture",
-        link: "/agriculture",
-      },
-      {
-        title: "Automotive",
-        link: "/automotive",
-      },
-      {
-        title: "Chemicals",
-        link: "/chemicals",
-      },
-      {
-        title: "Construction",
-        link: "/construction",
-      },
-      {
-        title: "Electronics",
-        link: "/electronics",
-      },
+      ...sectors.map((sector) => ({
+        title: sector.title,
+        link: sector.link,
+      })),
     ],
   },
   {
@@ -83,16 +64,6 @@ const headerMenuData: MenuItem[] = [
     title: "Projects",
     pluseIncon: false,
     link: "/projects",
-  },
-  {
-    id: 6,
-    hasDropdown: false,
-    active: false,
-    megaMenu: false,
-    children: false,
-    title: "How We Work",
-    pluseIncon: false,
-    link: "/how-we-work",
   },
   {
     id: 7,

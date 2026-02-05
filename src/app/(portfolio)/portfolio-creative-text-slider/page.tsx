@@ -1,4 +1,4 @@
-import PortfolioCreativeTextSlider from '@/pages/portfolios/portfolio-creative-text-slider/PortfolioCreativeTextSlider';
+import PortfolioCreativeTextSlider from '@/views/portfolios/portfolio-creative-text-slider/PortfolioCreativeTextSlider';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {

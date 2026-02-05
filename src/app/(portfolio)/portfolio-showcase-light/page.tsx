@@ -1,4 +1,4 @@
-import PortfolioShowcaseMain from '@/pages/portfolios/portfolio-showcase/PortfolioShowcaseMain';
+import PortfolioShowcaseMain from '@/views/portfolios/portfolio-showcase/PortfolioShowcaseMain';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {

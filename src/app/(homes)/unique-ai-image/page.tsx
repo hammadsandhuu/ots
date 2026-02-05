@@ -1,4 +1,4 @@
-import UniqueAIImageMain from '@/pages/homes/unique-ai-image/UniqueAIImageMain';
+import UniqueAIImageMain from '@/views/homes/unique-ai-image/UniqueAIImageMain';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {

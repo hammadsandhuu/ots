@@ -1,4 +1,4 @@
-import PersonalPortfolioMain from '@/pages/homes/personal-portfolio/PersonalPortfolioMain';
+import PersonalPortfolioMain from '@/views/homes/personal-portfolio/PersonalPortfolioMain';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {

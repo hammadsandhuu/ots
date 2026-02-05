@@ -73,10 +73,10 @@
 		&.btn-red-bg{
 			& .tp-btn-black-text {
 				color: var(--tp-common-white);
-				background-color: var(--tp-common-red-3);
+				background-color: var(--tp-common-primary);
 			}
 			& .tp-btn-black-circle {
-				background: var(--tp-common-red-3);
+				background: var(--tp-common-primary);
 			}
 			& .tp-btn-black-circle svg {
 				color: var(--tp-common-white);
@@ -229,8 +229,8 @@
 			}
 			&:hover{
 				color: var(--tp-common-white);
-				border-color: var(--tp-common-red-2);
-				background-color: var(--tp-common-red-2);
+				border-color: var(--tp-common-primary);
+				background-color: var(--tp-common-primary);
 			}
 			&:focus{
 				color: var(--tp-common-white);
@@ -392,8 +392,8 @@
 			border: 1px solid rgba(25, 25, 25, 0.1);
 			&:hover{
 				color: var(--tp-common-white);
-				border-color: var(--tp-common-red-2);
-				background-color: var(--tp-common-red-2);
+				border-color: var(--tp-common-primary);
+				background-color: var(--tp-common-primary);
 			}
 			& span{
 				& svg{
@@ -977,7 +977,7 @@
 					transform: scale3d(1, 1, 1);
 					margin-inline-end: 0;
 					color: var(--tp-common-white);
-					background-color: var(--tp-common-red-2);
+					background-color: var(--tp-common-primary);
 				}
 				>*:nth-child(2) {
 					position: relative;
@@ -990,7 +990,7 @@
 				}
 				& .tp-btn-red-circle-text{
 					color: var(--tp-common-white);
-					background-color: var(--tp-common-red-2);
+					background-color: var(--tp-common-primary);
 				}
 			}
 
@@ -1036,8 +1036,8 @@
 			border-radius: 50%;
 			text-align: center;
 			display: inline-block;
-			color: var(--tp-common-red-2);
-			border: 1px solid var(--tp-common-red-2);
+			color: var(--tp-common-primary);
+			border: 1px solid var(--tp-common-primary);
 		}
 		&-text{
 			font-size: 15px;
@@ -1048,9 +1048,9 @@
 			display: inline-block;
 			text-transform: uppercase;
 			background-color: #F2F1EE;
-			color: var(--tp-common-red-2);
+			color: var(--tp-common-primary);
 			font-family: var(--tp-ff-clash-medium);
-			border: 1px solid var(--tp-common-red-2);
+			border: 1px solid var(--tp-common-primary);
 		}
 	}
 	&-white-border{

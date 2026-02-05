@@ -1,4 +1,4 @@
-import PortfolioDetailsModern from '@/pages/portfolios/portfolio-details-modern/PortfolioDetailsModern';
+import PortfolioDetailsModern from '@/views/portfolios/portfolio-details-modern/PortfolioDetailsModern';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {

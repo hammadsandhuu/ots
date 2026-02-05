@@ -1,4 +1,4 @@
-import ITSolutionMain from '@/pages/homes/it-solution/ITSolutionMain';
+import ITSolutionMain from '@/views/homes/it-solution/ITSolutionMain';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {

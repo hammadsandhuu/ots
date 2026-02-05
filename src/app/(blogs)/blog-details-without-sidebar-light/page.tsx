@@ -1,4 +1,4 @@
-import BlogDetailsWithoutSidebar from '@/pages/blogs/blog-details-without-sidebar/BlogDetailsWithoutSidebar';
+import BlogDetailsWithoutSidebar from '@/views/blogs/blog-details-without-sidebar/BlogDetailsWithoutSidebar';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {

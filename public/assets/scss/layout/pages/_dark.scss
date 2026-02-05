@@ -279,8 +279,8 @@
         background-color: var(--tp-common-white);
         &:hover{
             color: var(--tp-common-white);
-            background-color: var(--tp-common-red-2);
-            border-color: var(--tp-common-red-2);
+            background-color: var(--tp-common-primary);
+            border-color: var(--tp-common-primary);
         }
     }
     & .ar-banner-shape img {
@@ -291,7 +291,7 @@
     }
     & .ar-about-exp-box {
         border: 1px solid rgba(255, 255, 255, 0.08);
-        border-top: 4px solid var(--tp-common-red-2);
+        border-top: 4px solid var(--tp-common-primary);
     }
     & .ar-project-category span {
         color: var(--tp-common-white);
@@ -304,13 +304,13 @@
     }
     & .tp-btn-red-circle-text {
         color: var(--tp-common-white);
-        background-color: var(--tp-common-red-2);
-        border: 1px solid var(--tp-common-red-2);
+        background-color: var(--tp-common-primary);
+        border: 1px solid var(--tp-common-primary);
     }
     & .tp-btn-red-circle-icon {
         color: var(--tp-common-white);
-        background-color: var(--tp-common-red-2);
-        border: 1px solid var(--tp-common-red-2);
+        background-color: var(--tp-common-primary);
+        border: 1px solid var(--tp-common-primary);
     }
     & .tp-btn-red-circle-box:hover .tp-btn-red-circle-text {
         border-color: transparent;
@@ -1189,7 +1189,7 @@
 		color: var(--tp-common-white);
 	}
 	& .creative-service-subtitle-box .tp-section-subtitle.fs-17.pre-circle::before {
-		background-color: var(--tp-common-red-3);
+		background-color: var(--tp-common-primary);
 	}
 	& .creative-service-top-content p {
 		color: var(--tp-common-white);
@@ -1547,7 +1547,7 @@
 		color: var(--tp-common-white);
 		&:focus{
             background: transparent;
-            border-color: var(--tp-common-red-3);
+            border-color: var(--tp-common-primary);
 		}
 	}
 	& .tp-contact-form-input label {
@@ -1828,7 +1828,7 @@
     & .tp-header-8-lang a {
         color: var(--tp-common-white);
         &:hover{
-            color: var(--tp-common-red-2);
+            color: var(--tp-common-primary);
         }
     }
 }

@@ -1,5 +1,5 @@
 
-import PortfolioHorizontalShowcase from '@/pages/portfolios/portfolio-horizontal-showcase/PortfolioHorizontalShowcase';
+import PortfolioHorizontalShowcase from '@/views/portfolios/portfolio-horizontal-showcase/PortfolioHorizontalShowcase';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {

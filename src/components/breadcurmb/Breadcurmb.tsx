@@ -15,7 +15,7 @@ const Breadcurmb = () => {
                                     <ArrowTwentyThree />
                                 </span>
 
-                                <h3 className="tp-blog-title fs-100 tp_fade_anim">We Make <Image src={aboutShape} alt="about shape" /> <br />
+                                <h3 className="tp-blog-title fs-100 tp_fade_anim">We Make <br />
                                     Digital Beautiful</h3>
                             </div>
                         </div>

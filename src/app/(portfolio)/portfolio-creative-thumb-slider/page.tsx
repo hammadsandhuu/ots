@@ -1,4 +1,4 @@
-import PortfolioCreativeThumbSlider from '@/pages/portfolios/portfolio-creative/PortfolioCreativeThumbSlider';
+import PortfolioCreativeThumbSlider from '@/views/portfolios/portfolio-creative/PortfolioCreativeThumbSlider';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {

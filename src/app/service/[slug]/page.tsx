@@ -1,4 +1,4 @@
-import ServiceDetailsTwoMain from '@/pages/services/service-details/ServiceDetailsTwoMain';
+import ServiceDetailsTwoMain from '@/views/services/service-details/ServiceDetailsTwoMain';
 import { getServiceDetailBySlug, getAllServiceDetailSlugs } from '@/data/serviceDetailsData';
 import { Metadata } from 'next';
 import { notFound } from 'next/navigation';

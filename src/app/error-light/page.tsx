@@ -1,4 +1,4 @@
-import ErrorMain from '@/pages/error/ErrorMain';
+import ErrorMain from '@/views/error/ErrorMain';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {

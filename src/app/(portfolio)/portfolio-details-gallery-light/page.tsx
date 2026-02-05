@@ -1,4 +1,5 @@
-import PortfolioDetailsGallery from '@/pages/portfolio/portfolio-details/PortfolioDetailsGallery';
+import { redirect } from 'next/navigation';
+import { projects } from '@/data/projects/Projects';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -6,9 +7,12 @@ export const metadata: Metadata = {
 };
 
 const page = () => {
-    return (
-        <PortfolioDetailsGallery />
-    );
+    // Redirect to the first project
+    const firstProject = projects[0];
+    if (firstProject) {
+        redirect(firstProject.link);
+    }
+    return null;
 };
 
 export default page;

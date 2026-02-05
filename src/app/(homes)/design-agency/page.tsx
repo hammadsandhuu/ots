@@ -1,4 +1,4 @@
-import DesignAgencyMain from '@/pages/homes/design-agency/DesignAgencyMain';
+import DesignAgencyMain from '@/views/homes/design-agency/DesignAgencyMain';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {

@@ -1,13 +1,42 @@
 import { AchievementIcon, CustomerIcon, ExperienceIcon, ProjectIcon } from '@/svg/TeamIcons';
+import { TeamMemberDetail } from '@/types/team-d-t';
 import AnimatedCounter from '../counter/AnimatedCounter';
 
-const TeamFunfact = ({ spacing = "mb-30" }: { spacing?: string }) => {
+interface TeamFunfactProps {
+    member?: TeamMemberDetail;
+    spacing?: string;
+}
+
+const TeamFunfact = ({ member, spacing = "mb-30" }: TeamFunfactProps) => {
+    const stats = member?.stats;
+    
     const couterData = [
-        { end: 2, suffix: "k", text: 'Project Completed', icon: <ProjectIcon /> },
-        { end: 6, suffix: "", text: 'My Achievement', icon: <AchievementIcon /> },
-        { end: 12, suffix: "+", text: 'Year of Experience', icon: <ExperienceIcon /> },
-        { end: 98, suffix: "%", text: 'Happy Customer', icon: <CustomerIcon /> },
-    ]
+        { 
+            end: stats?.projectsCompleted ? Math.floor(stats.projectsCompleted / 1000) : 2, 
+            suffix: "k+", 
+            text: 'Projects Completed', 
+            icon: <ProjectIcon /> 
+        },
+        { 
+            end: stats?.achievements || 6, 
+            suffix: "+", 
+            text: 'Achievements', 
+            icon: <AchievementIcon /> 
+        },
+        { 
+            end: stats?.yearsExperience || 12, 
+            suffix: "+", 
+            text: 'Years of Experience', 
+            icon: <ExperienceIcon /> 
+        },
+        { 
+            end: stats?.happyCustomers || 98, 
+            suffix: "%", 
+            text: 'Client Satisfaction', 
+            icon: <CustomerIcon /> 
+        },
+    ];
+    
     return (
         <>
             {

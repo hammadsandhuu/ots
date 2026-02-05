@@ -1,5 +1,5 @@
 
-import FashionStudioMain from '@/pages/homes/fashion-studio/FashionStudioMain';
+import FashionStudioMain from '@/views/homes/fashion-studio/FashionStudioMain';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {

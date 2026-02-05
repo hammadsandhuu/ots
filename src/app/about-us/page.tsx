@@ -1,4 +1,4 @@
-import AboutUsLightMain from '@/pages/about-us/AboutUsLightMain';
+import AboutUsLightMain from '@/views/about-us/AboutUsLightMain';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {

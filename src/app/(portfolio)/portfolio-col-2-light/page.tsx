@@ -1,4 +1,4 @@
-import PortfolioColTwoMain from '@/pages/portfolios/portfolio-col-2/PortfolioColTwoMain';
+import PortfolioColTwoMain from '@/views/portfolios/portfolio-col-2/PortfolioColTwoMain';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {

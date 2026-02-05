@@ -74,7 +74,7 @@
             display: inline-block;
             letter-spacing: -0.1em;
             text-transform: uppercase;
-            color: var(--tp-common-red-3);
+            color: var(--tp-common-primary);
             transform: translateY(-50px);
             @media #{$lg}{
                 font-size: 300px;
@@ -90,7 +90,7 @@
                 transform: translateY(0px);
             }
             & i{
-                color: var(--tp-common-red-3);
+                color: var(--tp-common-primary);
                 -webkit-text-stroke: 6px #F8F8FB;
                 margin-left: -15px;
                 font-style: normal;

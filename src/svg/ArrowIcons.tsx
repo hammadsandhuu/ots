@@ -247,7 +247,7 @@ export const ArrowTwentyThree = () => {
     return (
         <>
             <svg xmlns="http://www.w3.org/2000/svg" width="82" height="9" viewBox="0 0 82 9" fill="none">
-                <path d="M78 7.95425L81.5 4.47169L78 0.989136M1 3.98977H81V4.98977H1V3.98977Z" stroke="#FF5722" strokeLinecap="round" strokeLinejoin="round" />
+                <path d="M78 7.95425L81.5 4.47169L78 0.989136M1 3.98977H81V4.98977H1V3.98977Z" stroke="#0047AB" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
         </>
     );

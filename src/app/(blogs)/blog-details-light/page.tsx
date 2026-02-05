@@ -1,5 +1,5 @@
 
-import BlogDeailsMain from "@/pages/blogs/blog-details/BlogDeailsMain";
+import BlogDeailsMain from "@/views/blogs/blog-details/BlogDeailsMain";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {

@@ -1,4 +1,4 @@
-import PortfolioMasonryMain from '@/pages/portfolios/portfolio-masonry/PortfolioMasonryMain';
+import PortfolioMasonryMain from '@/views/portfolios/portfolio-masonry/PortfolioMasonryMain';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {

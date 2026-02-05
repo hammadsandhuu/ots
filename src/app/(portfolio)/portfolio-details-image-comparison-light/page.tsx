@@ -1,4 +1,4 @@
-import PortfolioImageComparison from '@/pages/portfolios/portfolio-details-image-comparison/PortfolioImageComparison';
+import PortfolioImageComparison from '@/views/portfolios/portfolio-details-image-comparison/PortfolioImageComparison';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {

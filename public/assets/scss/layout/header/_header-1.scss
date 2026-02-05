@@ -348,8 +348,8 @@
         display: inline-block;
         border: 1px solid rgba(25, 25, 25, 0.1);
         &:hover{
-            border-color: var(--tp-common-red-2);
-            background-color: var(--tp-common-red-2);
+            border-color: var(--tp-common-primary);
+            background-color: var(--tp-common-primary);
             & span{
                 color: var(--tp-common-white);
             }
@@ -378,7 +378,7 @@
                 margin-right: 8px;
             }
             &:hover{
-                color: var(--tp-common-red-2);
+                color: var(--tp-common-primary);
             }
         }
     }

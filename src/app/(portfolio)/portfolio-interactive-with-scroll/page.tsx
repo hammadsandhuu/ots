@@ -1,4 +1,4 @@
-import PortfolioInteractiveScroll from '@/pages/portfolios/portfolio-interactive-scroll/PortfolioInteractiveScroll';
+import PortfolioInteractiveScroll from '@/views/portfolios/portfolio-interactive-scroll/PortfolioInteractiveScroll';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {

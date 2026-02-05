@@ -1,4 +1,4 @@
-import projectsData from '@/data/projectData';
+import { projects as projectsData } from '@/data/projects/Projects';
 import { ArrowTwentyFive } from '@/svg/ArrowIcons';
 import Image from 'next/image';
 import Link from 'next/link';

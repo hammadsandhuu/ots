@@ -7,7 +7,7 @@ import { useRef, useState } from 'react';
 import { TitleShape } from "@/svg/TitleShape";
 import Image from 'next/image';
 import Link from 'next/link';
-import { projects } from "@/data/Projects";
+import { projects } from "@/data/projects/Projects";
 
 const DigitalMarketingProject = () => {
     const [controlledSwiper, setControlledSwiper] = useState<SwiperType | null>(null);

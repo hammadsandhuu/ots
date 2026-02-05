@@ -1,4 +1,4 @@
-import StartupagencyMain from '@/pages/homes/startup-agency/StartupagencyMain';
+import StartupagencyMain from '@/views/homes/startup-agency/StartupagencyMain';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {

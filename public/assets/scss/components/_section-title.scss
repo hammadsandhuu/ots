@@ -178,7 +178,7 @@
             font-size: 26px;
             line-height: 1;
             display: inline-block;
-            color: var(--tp-common-red-2);
+            color: var(--tp-common-primary);
             font-family: var(--tp-ff-satisfy);
         }
         &-teko{
@@ -236,7 +236,7 @@
             margin-bottom: 20px;
         }
         &.orange-color{
-            color: var(--tp-common-red-3);
+            color: var(--tp-common-primary);
             @media #{$xl,$lg} {
                 margin-right: 50px;
             }

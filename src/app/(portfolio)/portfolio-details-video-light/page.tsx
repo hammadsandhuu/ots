@@ -1,4 +1,4 @@
-import PortfolioDetailsVideo from '@/pages/portfolios/portfolio-details-video/PortfolioDetailsVideo';
+import PortfolioDetailsVideo from '@/views/portfolios/portfolio-details-video/PortfolioDetailsVideo';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {

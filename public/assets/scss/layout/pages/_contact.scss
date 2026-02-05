@@ -110,7 +110,7 @@
                 border-color: #F8F8FB;
                 &:focus{
                     background: var(--tp-common-white);
-                    border-color: var(--tp-common-red-3);
+                    border-color: var(--tp-common-primary);
                 }
             }
             & textarea{
@@ -498,7 +498,7 @@
                     color: var(--tp-common-white);
                     &:focus{
                         background-color: #1B1B1D;
-                        border-color: var(--tp-common-red-3);
+                        border-color: var(--tp-common-primary);
                     }
                 }
             }

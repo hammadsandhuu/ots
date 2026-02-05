@@ -16,14 +16,14 @@
             & .tp-footer-widget-social a {
                 background-color: var(--tp-common-white);
                 &:hover{
-                    background-color: var(--tp-common-red-3);
+                    background-color: var(--tp-common-primary);
                 }
             }
             & .tp-footer-widget-menu ul li a {
                 background-color: var(--tp-common-white);
                 &:hover{
                     color: var(--tp-common-white);
-                    background-color: var(--tp-common-red-3);
+                    background-color: var(--tp-common-primary);
                 }
             }
         }
@@ -97,7 +97,7 @@
                         border-radius: 50%;
                         display: inline-block;
                         transform: translateY(-2px);
-                        background-color: var(--tp-common-red-3);
+                        background-color: var(--tp-common-primary);
                     }
                 }
             }
@@ -118,7 +118,7 @@
                 }
                 &:hover{
                     color: var(--tp-common-white);
-                    background-color: var(--tp-common-red-3);
+                    background-color: var(--tp-common-primary);
                 }
             }
         }
@@ -141,7 +141,7 @@
                         background-color: var(--tp-grey-2);
                         &:hover{
                             color: var(--tp-common-white);
-                            background-color: var(--tp-common-red-3);
+                            background-color: var(--tp-common-primary);
                         }
                     }
                 }
@@ -157,7 +157,7 @@
                 letter-spacing: -0.02em;
                 color: var(--tp-common-black);
                 &:hover{
-                    color: var(--tp-common-red-3);
+                    color: var(--tp-common-primary);
                 }
                 &:not(:last-child){
                     margin-bottom: 10px;
@@ -259,7 +259,7 @@
             letter-spacing: -0.02em;
             color: var(--tp-common-black); 
             &:hover{
-                color: var(--tp-common-red-3);
+                color: var(--tp-common-primary);
             }
             &:not(:first-child){
                 margin-left: 120px;

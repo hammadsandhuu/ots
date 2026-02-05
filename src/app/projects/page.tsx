@@ -1,4 +1,4 @@
-import ProjectsMain from '@/pages/projects/ProjectsMain';
+import ProjectsMain from '@/views/projects/ProjectsMain';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {

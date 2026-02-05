@@ -1,5 +1,5 @@
 
-import PortfolioPinterestMain from '@/pages/portfolios/portfolio-pinterest/PortfolioPinterestMain';
+import PortfolioPinterestMain from '@/views/portfolios/portfolio-pinterest/PortfolioPinterestMain';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
