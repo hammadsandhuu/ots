@@ -8,6 +8,7 @@ import InnerPageHeader from '@/layouts/headers/InnerPageHeader';
 import TeamFunfact from '@/components/funfact/TeamFunfact';
 import TeamDetails from '@/components/team/TeamDetails';
 import { TeamMemberDetail } from '@/types/team-d-t';
+import DigitalMarketingFooter from '@/layouts/footers/DigitalMarketingFooter';
 
 interface TeamDetailsMainProps {
     member: TeamMemberDetail;
@@ -40,7 +41,7 @@ const TeamDetailsMain = ({ member }: TeamDetailsMainProps) => {
                                     </div>
                                 </section>
                             </main>
-                            <CreativeAgencyFooter bgColor="#0E0F11" className='footer-menu-style' />
+                            <DigitalMarketingFooter/>
                         </div>
                     </div>
                 </AnimationWrapper>

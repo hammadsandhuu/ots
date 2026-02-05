@@ -51,8 +51,8 @@ const SOCIAL_LINKS = [
 ] as const
 
 const TEXT_BOX = {
-    copy: "World-class Shipping Services.",
-    ctaHref: "/contact",
+    copy: "World-class Shipping Services and Solutions.",
+    ctaHref: "/contact-us",
 }
 
 const DigitalMarketingHero = () => {
