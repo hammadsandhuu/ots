@@ -61,6 +61,7 @@ const DigitalMarketingBlog = () => {
                                             <Link href={blog.link}>
                                                 <Image style={{ width: "100%", height: "auto" }} src={blog.image} alt="blog-image" />
                                             </Link>
+                                            <div className="dgm-blog-thumb-overlay" aria-hidden />
                                         </div>
                                     </div>
                                 </div>

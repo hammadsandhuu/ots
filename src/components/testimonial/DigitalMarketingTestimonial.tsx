@@ -1,7 +1,7 @@
 "use client"
 import bgShape from "../../../public/assets/img/home-03/testimonial/test-bg-shape.jpg"
 import testiLogo from "../../../public/assets/img/home-03/testimonial/testi-logo.png";
-import testBgImg from "../../../public/assets/img/home-03/testimonial/3.webp";
+import testBgImg from "../../../public/assets/img/home-03/testimonial/3.jpg";
 import authorImg from "../../../public/assets/img/home-03/avater/author-1.jpg";
 import { useVideoModal } from "@/provider/VideoProvider";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -50,6 +50,7 @@ const DigitalMarketingTestimonial = () => {
                 <div className="anim-zoomin-wrap">
                     <Image style={{ width: "100%", height: "auto" }} className="anim-zoomin" src={testBgImg} alt="bg-image" />
                 </div>
+                <div className="dgm-testimonial-thumb-overlay" aria-hidden />
                 <button onClick={() => playVideo("VCPGMjCW0is")}
                     className="dgm-testimonial-playbtn">
                     <span>

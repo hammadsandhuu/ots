@@ -1,6 +1,6 @@
 "use client"
-import aboutImg from "../../../public/assets/img/home-03/about/ab1.webp";
-import aboutImg2 from "../../../public/assets/img/home-03/about/ab2.webp";
+import aboutImg from "../../../public/assets/img/home-03/about/about-4.jpg";
+import aboutImg2 from "../../../public/assets/img/home-03/about/about-5.jpg";
 import { ArrowFour, StarIcon } from "@/svg";
 import { TeamTitleUnderline } from "@/svg/TeamTitleUnderline";
 import Image from 'next/image';

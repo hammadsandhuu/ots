@@ -10,7 +10,7 @@ import { ArrowFour, ArrowNineteen } from "@/svg/ArrowIcons"
 import { DribbleTwo, HeroTextBoxSvg } from "@/svg"
 import Link from "next/link"
 
-const HERO_VIDEO_SRC = "/assets/video/2.mp4"
+const HERO_VIDEO_SRC = "/assets/video/5.mp4"
 
 const HERO_CONTENT = {
     title: "Global Freight Forwarding",
@@ -93,19 +93,6 @@ const DigitalMarketingHero = () => {
                                     {HERO_CONTENT.description}
                                 </p>
                             </div>
-                            {/* Button - hidden on mobile, shown on desktop
-                            <div className="dgm-hero-btn-wrap tp_fade_anim d-none d-lg-block" data-delay=".7">
-                                <Link className="tp-btn-secondary green-solid btn-60" href="/contact">
-                                    <span>
-                                        <span className="text-1">Get in Touch</span>
-                                        <span className="text-2">Get in Touch</span>
-                                    </span>{" "}
-                                    <i>
-                                        <ArrowFour />
-                                        <ArrowFour />
-                                    </i>
-                                </Link>
-                            </div> */}
                             <div className="dgm-hero-funfact-wrap">
                                 <div className="row row-cols-auto g-5">
                                     {FUN_FACTS.map((item) => (

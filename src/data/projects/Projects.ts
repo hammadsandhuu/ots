@@ -1,13 +1,13 @@
 import { ProjectDetailData } from '@/types/project-d-t';
-import project1 from "../../../public/assets/img/home-03/project/project-2.jpg";
-import project2 from "../../../public/assets/img/home-03/project/project-2.jpg";
-import project3 from "../../../public/assets/img/home-03/project/project-2.jpg";
-import project4 from "../../../public/assets/img/home-03/project/project-2.jpg";
-import project5 from "../../../public/assets/img/home-03/project/project-2.jpg";
-import project6 from "../../../public/assets/img/home-03/project/project-2.jpg";
-import project7 from "../../../public/assets/img/home-03/project/project-2.jpg";
-import project8 from "../../../public/assets/img/home-03/project/project-2.jpg";
-import project9 from "../../../public/assets/img/home-03/project/project-2.jpg";
+import project1 from "../../../public/assets/img/home-03/projects/1.png";
+import project2 from "../../../public/assets/img/home-03/projects/2.png";
+import project3 from "../../../public/assets/img/home-03/projects/3.png";
+import project4 from "../../../public/assets/img/home-03/projects/4.png";
+import project5 from "../../../public/assets/img/home-03/projects/5.png";
+import project6 from "../../../public/assets/img/home-03/projects/6.png";
+import project7 from "../../../public/assets/img/home-03/projects/7.png";
+import project8 from "../../../public/assets/img/home-03/projects/8.png";
+import project9 from "../../../public/assets/img/home-03/projects/9.png";
 
 // Banner and gallery images
 import bannerImage from "../../../public/assets/img/portfolio/portfolio-details-2/portfolio-details-thumb-1.jpg";

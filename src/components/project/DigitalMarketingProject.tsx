@@ -119,10 +119,13 @@ const DigitalMarketingProject = () => {
                                 <div className="dgm-project-item">
                                     <div className="dgm-project-thumb">
                                         <Image
-                                            style={{ width: "100%", height: "auto" }}
                                             src={project.image}
                                             alt={project.title}
+                                            fill
+                                            sizes="(max-width: 576px) 100vw, (max-width: 992px) 50vw, 33vw"
+                                            style={{ objectFit: "cover", objectPosition: "center" }}
                                         />
+                                        <div className="dgm-project-thumb-overlay" aria-hidden />
                                     </div>
                                 </div>
                             </SwiperSlide>
