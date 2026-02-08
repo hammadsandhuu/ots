@@ -171,6 +171,13 @@ export interface FAQItemDT {
   isOpen?: boolean;
 }
 
+/** FAQ entry for service/sector detail pages (id generated in component if omitted) */
+export interface FaqEntry {
+  question: string;
+  answer: string;
+  isOpen?: boolean;
+}
+
 //fashion Studio ProjectDT
 export interface fashionStudioProjectDT {
   id: number;

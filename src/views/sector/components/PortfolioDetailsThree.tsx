@@ -12,7 +12,7 @@ const PortfolioDetailsThree = ({ sector }: PortfolioDetailsThreeProps) => {
             <div className="tp-pd-3-hero-style">
                 <div className="container-fluid">
                     <div className="des-portfolio-item p-relative mb-30">
-                        <div className="des-portfolio-thumb anim-zoomin-wrap p-relative">
+                        <div className="des-portfolio-thumb anim-zoomin-wrap p-relative rounded-5 overflow-hidden">
                             <Image style={{ width: "100%", height: "auto" }} className="w-100 anim-zoomin" src={sector.heroImage} alt={sector.title} />
                         </div>
                         <div className="des-portfolio-content">

@@ -52,6 +52,11 @@ const sectors: SectorData[] = [
             image: port6,
         },
         galleryImagesTwo: [port7, port8, port9],
+        faqs: [
+            { question: "How are luxury vehicles protected during transport?", answer: "We use enclosed carriers with air-ride suspension and soft-tie restraint systems. Vehicles are protected from weather, debris, and scratches, with GPS tracking for the full journey.", isOpen: true },
+            { question: "Do you transport classic and exotic cars?", answer: "Yes. We specialize in luxury, classic, and exotic vehicles and provide white-glove handling so every vehicle arrives in pristine condition." },
+            { question: "What is your coverage area?", answer: "We offer nationwide premium vehicle transport for dealerships and private owners." },
+        ],
     },
     {
         id: 2,
@@ -85,6 +90,11 @@ const sectors: SectorData[] = [
             image: port6,
         },
         galleryImagesTwo: [port7, port8, port9],
+        faqs: [
+            { question: "Do you handle hazardous materials for oil and gas?", answer: "Yes. We provide compliant handling and transport for materials used in energy operations, including permits and safety protocols for challenging terrains.", isOpen: true },
+            { question: "Can you deliver to remote sites?", answer: "We specialize in delivery to remote locations with limited infrastructure, using route surveys and specialized equipment as needed." },
+            { question: "What compliance do you maintain?", answer: "We maintain full compliance with safety and hazardous-materials regulations and work with a dedicated energy logistics team." },
+        ],
     },
     {
         id: 3,
@@ -118,6 +128,11 @@ const sectors: SectorData[] = [
             image: port6,
         },
         galleryImagesTwo: [port7, port8, port9],
+        faqs: [
+            { question: "How do you coordinate deliveries from multiple countries?", answer: "We create detailed logistics plans with sequencing and contingency buffers. Real-time tracking and proactive communication keep all stakeholders informed and projects on schedule.", isOpen: true },
+            { question: "What happens if a delivery is delayed?", answer: "We plan with buffers and monitor in real time. If delays occur, we communicate immediately and adjust sequencing to minimize impact on the project." },
+            { question: "Do you manage supplier coordination?", answer: "Yes. We coordinate with multiple suppliers, timelines, and strict sequencing requirements so mega projects stay on track." },
+        ],
     },
     {
         id: 4,
@@ -151,6 +166,11 @@ const sectors: SectorData[] = [
             image: port6,
         },
         galleryImagesTwo: [port7, port8, port9],
+        faqs: [
+            { question: "How do you support just-in-time delivery for manufacturing?", answer: "We use integrated warehouse and transport systems to align deliveries with production schedules, minimizing inventory while keeping lines running.", isOpen: true },
+            { question: "Do you handle both raw materials and finished goods?", answer: "Yes. We support inbound raw materials and outbound finished goods across regional supply chains." },
+            { question: "How do you avoid production line stoppages?", answer: "Predictive analytics and tight scheduling help us anticipate demand and adjust logistics so materials arrive when needed." },
+        ],
     },
     {
         id: 5,
@@ -184,6 +204,11 @@ const sectors: SectorData[] = [
             image: port6,
         },
         galleryImagesTwo: [port7, port8, port9],
+        faqs: [
+            { question: "Do you deliver FF&E for hotel openings?", answer: "Yes. We deliver Furniture, Fixtures & Equipment for hotel and resort openings and renovations, with minimal disruption to operations.", isOpen: true },
+            { question: "How do you minimize guest disruption?", answer: "We coordinate with property managers to schedule deliveries during low-occupancy windows and use room-by-room plans for efficient installation." },
+            { question: "What is included in hospitality logistics?", answer: "FF&E delivery, sequencing for installation, and coordination with your project timeline and property access." },
+        ],
     },
     {
         id: 6,
@@ -217,6 +242,11 @@ const sectors: SectorData[] = [
             image: port6,
         },
         galleryImagesTwo: [port7, port8, port9],
+        faqs: [
+            { question: "Do you offer white-glove furniture delivery?", answer: "Yes. We provide unpacking, placement, and debris removal. Placement is done with floor protection and according to designer specifications.", isOpen: true },
+            { question: "How do you protect high-value furniture in transit?", answer: "We use custom blanket wrapping, air-ride vehicles, and specialized lifting equipment. Crews are trained to handle delicate finishes and oversized pieces." },
+            { question: "Do you deliver to residential and commercial projects?", answer: "Yes. We serve interior designers and both residential and commercial projects nationwide." },
+        ],
     },
     {
         id: 7,
@@ -250,6 +280,11 @@ const sectors: SectorData[] = [
             image: port6,
         },
         galleryImagesTwo: [port7, port8, port9],
+        faqs: [
+            { question: "How do you maintain temperature for food and perishables?", answer: "Our refrigerated fleet uses real-time temperature monitoring with automatic alerts. We maintain optimal temperatures and full chain-of-custody documentation for food safety compliance.", isOpen: true },
+            { question: "What is your coverage for cold chain?", answer: "We provide cold chain logistics regionally from farm to distribution center, with full compliance documentation." },
+            { question: "What happens if temperature goes out of range?", answer: "Automatic alerts allow immediate response. Digital records document the full chain of custody for regulatory and quality purposes." },
+        ],
     },
     {
         id: 8,
@@ -283,6 +318,11 @@ const sectors: SectorData[] = [
             image: port6,
         },
         galleryImagesTwo: [port7, port8, port9],
+        faqs: [
+            { question: "What security level do you provide for diplomatic cargo?", answer: "We provide highest-security logistics for diplomatic missions, embassies, and government agencies, meeting international security standards for sensitive materials.", isOpen: true },
+            { question: "How is cargo protected from tampering?", answer: "We use tamper-evident seals, GPS tracking, and escort services. Security-cleared personnel follow strict protocols with full chain of custody and confidentiality." },
+            { question: "Do you operate internationally for government clients?", answer: "Yes. We operate internationally with protocols designed for sensitive government and diplomatic requirements." },
+        ],
     },
 ];
 

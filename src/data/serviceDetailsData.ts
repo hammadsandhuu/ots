@@ -71,6 +71,12 @@ const serviceDetailsData: ServiceDetailData[] = [
             { id: 2, name: "Volume Agreement", price: "Contract", isPopular: true, features: ["Dedicated account manager", "Volume discounts", "Priority handling", "Custom reporting", "SLA guarantees"], buttonVariant: "gradient", tab: "desktop" },
             { id: 3, name: "Managed Program", price: "Custom", features: ["Full outsourcing", "Process optimization", "Technology integration", "Analytics & insights", "24/7 support"], buttonVariant: "black-border", tab: "desktop" },
         ],
+        faqs: [
+            { question: "What is included in end-to-end freight management?", answer: "We handle every stage from origin pickup and booking through customs, in-transit tracking, and final delivery with proof of delivery. You get a single point of contact, consolidated documentation, and real-time visibility.", isOpen: true },
+            { question: "How do you ensure on-time delivery?", answer: "We use real-time tracking, proactive exception handling, and carrier coordination. Our process includes regular reviews and KPIs to continuously improve reliability and transit times." },
+            { question: "Can you manage customs and compliance for our lanes?", answer: "Yes. Customs clearance, regulatory compliance, and duty optimization are part of our end-to-end service. We handle documentation and work with local authorities to keep shipments moving." },
+            { question: "What does the initial assessment involve?", answer: "We analyze your supply chain, define scope and lanes, and set performance targets. From there we provide a price proposal with estimates and a clear path to kick-off." },
+        ],
     },
     {
         id: 2,
@@ -109,6 +115,12 @@ const serviceDetailsData: ServiceDetailData[] = [
             { id: 4, name: "Air Freight", price: "Per KG", features: ["Express & economy options", "Door-to-door available", "Customs included", "Tracking", "Insurance options"], buttonVariant: "black-border", tab: "desktop" },
             { id: 5, name: "Ocean Freight", price: "Per Container", isPopular: true, features: ["FCL & LCL", "Port-to-port or DDP", "Documentation", "Cargo insurance", "Flexible sailing"], buttonVariant: "gradient", tab: "desktop" },
             { id: 6, name: "Road Freight", price: "Per Shipment", features: ["FTL & LTL", "Regional & cross-border", "Real-time tracking", "Proof of delivery", "Dedicated support"], buttonVariant: "black-border", tab: "desktop" },
+        ],
+        faqs: [
+            { question: "What modes do you offer for commercial freight?", answer: "We provide air freight for speed, ocean freight (FCL and LCL) for cost-effective volume, and road freight (FTL and LTL) for regional and cross-border distribution. We help you choose the right mode per lane." },
+            { question: "How do you handle rate and capacity across different modes?", answer: "We work with vetted carriers across 150+ trade lanes. We secure capacity and competitive rates, and offer volume-based agreements for predictable pricing and schedule reliability." },
+            { question: "Do you offer door-to-door service?", answer: "Yes. We can arrange port-to-port or full door-to-door for air, ocean, and road. Documentation, customs, and tracking are included as needed for each shipment." },
+            { question: "What is your schedule adherence for commercial freight?", answer: "We target high schedule adherence through carrier selection, proactive delay management, and real-time tracking. Performance is reviewed regularly so we can adjust and improve." },
         ],
     },
     {
@@ -149,6 +161,12 @@ const serviceDetailsData: ServiceDetailData[] = [
             { id: 8, name: "Full Execution", price: "Turnkey", isPopular: true, features: ["End-to-end management", "Equipment & charter", "Documentation", "Site coordination", "Project reporting"], buttonVariant: "gradient", tab: "desktop" },
             { id: 9, name: "Consulting", price: "Retainer", features: ["Strategic advice", "Vendor selection", "Process design", "Training", "Ongoing support"], buttonVariant: "black-border", tab: "desktop" },
         ],
+        faqs: [
+            { question: "What types of projects do you handle?", answer: "We manage logistics for industrial projects including energy, mining, infrastructure, and manufacturing. This includes oversized and heavy equipment, multi-modal moves, and coordination across suppliers, ports, and sites." },
+            { question: "How do you handle permits and route feasibility?", answer: "We conduct route surveys and feasibility studies, secure export licenses and transit permits, and coordinate with authorities. Engineering support includes load studies and permit strategy." },
+            { question: "Do you provide equipment and charter?", answer: "Yes. We coordinate specialty equipment, charter vessels, and multimodal transport. This includes staging, marshalling, and site delivery with full documentation." },
+            { question: "What is the typical timeline from scope to delivery?", answer: "Timelines depend on cargo specs, routes, and permits. We define scope and timeline in the planning phase and keep you updated through mobilization, execution, and close-out." },
+        ],
     },
     {
         id: 4,
@@ -187,6 +205,12 @@ const serviceDetailsData: ServiceDetailData[] = [
             { id: 10, name: "Survey & Quote", price: "Fixed", features: ["Route survey", "Equipment assessment", "Cost quotation", "Timeline estimate", "Risk summary"], buttonVariant: "black-border", tab: "desktop" },
             { id: 11, name: "Full Service", price: "Project", isPopular: true, features: ["End-to-end execution", "Equipment provision", "Permits & escorts", "Insurance", "24/7 site support"], buttonVariant: "gradient", tab: "desktop" },
             { id: 12, name: "Consulting", price: "Hourly", features: ["Engineering support", "Vendor evaluation", "Process design", "Training", "Audit support"], buttonVariant: "black-border", tab: "desktop" },
+        ],
+        faqs: [
+            { question: "What qualifies as heavy lift or out-of-gauge cargo?", answer: "Oversized or overweight cargo that exceeds standard dimensions or weight limits—e.g. large machinery, transformers, industrial modules. We assess dimensions, weight, and routing to plan the move." },
+            { question: "How do you handle route surveys and permits?", answer: "We perform clearance surveys, bridge analysis, and load distribution studies. We secure oversize permits, arrange escorts and traffic management, and coordinate with authorities along the route." },
+            { question: "What equipment do you use for heavy lift?", answer: "We coordinate cranes, SPMTs, barges, and specialized road and rail transport. Equipment is selected based on cargo specs and route, with full risk mitigation and insurance." },
+            { question: "What is your safety record?", answer: "We maintain strict safety and engineering oversight for every move. Our processes include contingency planning and 24/7 site support to ensure cargo and personnel safety." },
         ],
     },
 ];

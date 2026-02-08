@@ -1,42 +1,35 @@
+import { FaqEntry } from "@/types/custom-d-t";
 
-interface FAQItem {
+const DEFAULT_FAQS: FaqEntry[] = [
+    { question: 'How long does it take to get started?', answer: 'It all starts with grabbing a cup of coffee, chilling with mates, and some quality time at the PlayStation (just kidding!). We always start a project with analysis, learning the requirements, and making estimates that will be shared in the price proposal. Then it\'s off to signing off, kicking off.', isOpen: true },
+    { question: 'What is your typical working process?', answer: 'We always start a project with analysis, learning the requirements, and making estimates that will be shared in the price proposal. Then it\'s off to signing off, kicking off.' },
+    { question: 'How do you usually start new collaborations?', answer: 'We start with analysis, learning the requirements, and making estimates that will be shared in the price proposal. Then it\'s off to signing off, kicking off.' },
+    { question: 'What\'s the average project duration?', answer: 'It depends on scope and complexity. We share timeline estimates in the price proposal after the initial assessment.' },
+    { question: 'Can we start the design without wireframes?', answer: 'We recommend starting with clear requirements and scope. We can discuss the best approach for your project.' },
+];
+
+interface FAQItemRender {
     id: string;
     question: string;
     answer: string;
     isOpen?: boolean;
 }
 
-const ServiceThreeFaq = () => {
-    const faqs: FAQItem[] = [
-        {
-            id: 'collapseOne1',
-            question: 'How long does it take to get started?',
-            answer: 'It all starts with grabbing a cup of coffee, chilling with mates, and some quality time at the PlayStation (just kidding!). We always start a project with analysis, learning the requirements, and making estimates that will be shared in the price proposal. Then it\'s off to signing off, kicking off.',
-            isOpen: true
-        },
-        {
-            id: 'collapseTwo2',
-            question: 'What is your typical working process?',
-            answer: 'It all starts with grabbing a cup of coffee, chilling with mates, and some quality time at the PlayStation (just kidding!). We always start a project with analysis, learning the requirements, and making estimates that will be shared in the price proposal. Then it\'s off to signing off, kicking off.'
-        },
-        {
-            id: 'collapseThree3',
-            question: 'How do you usually start new collaborations?',
-            answer: 'It all starts with grabbing a cup of coffee, chilling with mates, and some quality time at the PlayStation (just kidding!). We always start a project with analysis, learning the requirements, and making estimates that will be shared in the price proposal. Then it\'s off to signing off, kicking off.'
-        },
-        {
-            id: 'collapseFour4',
-            question: 'What\'s the average project duration?',
-            answer: 'It all starts with grabbing a cup of coffee, chilling with mates, and some quality time at the PlayStation (just kidding!). We always start a project with analysis, learning the requirements, and making estimates that will be shared in the price proposal. Then it\'s off to signing off, kicking off.'
-        },
-        {
-            id: 'collapseFive5',
-            question: 'Can we start the design without wireframes?',
-            answer: 'It all starts with grabbing a cup of coffee, chilling with mates, and some quality time at the PlayStation (just kidding!). We always start a project with analysis, learning the requirements, and making estimates that will be shared in the price proposal. Then it\'s off to signing off, kicking off.'
-        }
-    ];
+interface ServiceThreeFaqProps {
+    faqs?: FaqEntry[];
+    accordionId?: string;
+}
 
-    const FAQItem = ({ item }: { item: FAQItem }) => (
+const ServiceThreeFaq = ({ faqs: propFaqs, accordionId = "accordionExample1" }: ServiceThreeFaqProps) => {
+    const entries: FaqEntry[] = propFaqs && propFaqs.length > 0 ? propFaqs : DEFAULT_FAQS;
+    const faqs: FAQItemRender[] = entries.map((entry, index) => ({
+        id: `faq-${accordionId}-${index}`,
+        question: entry.question,
+        answer: entry.answer,
+        isOpen: entry.isOpen ?? index === 0,
+    }));
+
+    const FAQItem = ({ item }: { item: FAQItemRender }) => (
         <div className="accordion-items">
             <h2 className="accordion-header">
                 <button
@@ -54,7 +47,7 @@ const ServiceThreeFaq = () => {
             <div
                 id={item.id}
                 className={`accordion-collapse collapse ${item.isOpen ? 'show' : ''}`}
-                data-bs-parent="#accordionExample1"
+                data-bs-parent={`#${accordionId}`}
             >
                 <div className="accordion-body">
                     <p>{item.answer}</p>
@@ -75,7 +68,7 @@ const ServiceThreeFaq = () => {
                     <div className="col-lg-12">
                         <div className="app-faq-wrap">
                             <div className="ai-faq-accordion-wrap">
-                                <div className="accordion" id="accordionExample1">
+                                <div className="accordion" id={accordionId}>
                                     {faqs.map((faq) => (
                                         <FAQItem key={faq.id} item={faq} />
                                     ))}

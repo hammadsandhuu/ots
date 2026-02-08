@@ -1,5 +1,5 @@
 import { StaticImageData } from "next/image";
-import { PricePlanDT } from "./custom-d-t";
+import { PricePlanDT, FaqEntry } from "./custom-d-t";
 
 export interface servicesDT {
     id: number;
@@ -58,4 +58,5 @@ export interface ServiceDetailData extends servicesDT {
     solutionItems?: ServiceSolutionItem[];
     counterData?: ServiceCounterItem[];
     pricingPlans?: PricePlanDT[];
+    faqs?: FaqEntry[];
 }

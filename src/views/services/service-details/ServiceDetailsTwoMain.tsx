@@ -1,6 +1,7 @@
 import CursorAndBackgroundProvider from '@/components/provider/CustomCursorProvider';
 import ServiceDetailsTwoProcess from '@/views/services/service-details/components/ServiceDetailsTwoProcess';
 import ServiceDetailsTwoPrice from '@/views/services/service-details/components/ServiceDetailsTwoPrice';
+import ServiceThreeFaq from '@/components/faq/ServiceThreeFaq';
 import ServiceDetailsTwoBanner from '@/views/services/service-details/components/ServiceDetailsTwoBanner';
 import ServiceDetailsTwoAbout from '@/views/services/service-details/components/ServiceDetailsTwoAbout';
 import ScrollSmoothProvider from '@/components/provider/ScrollSmoothProvider';
@@ -40,6 +41,7 @@ const ServiceDetailsTwoMain = ({ service }: ServiceDetailsTwoMainProps) => {
                                 <ServiceSolutionTwo service={serviceData} />
                                 <ServiceDetailsTwoProcess service={serviceData} />
                                 <ServiceDetailsTwoPrice service={serviceData} />
+                                <ServiceThreeFaq faqs={serviceData.faqs} accordionId={`service-${serviceData.slug ?? serviceData.id}`} />
                             </main>
                             <DigitalMarketingFooter />
                         </div>

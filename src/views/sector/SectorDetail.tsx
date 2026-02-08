@@ -3,6 +3,7 @@ import PortfolioDetailsThreePortfolio from '@/views/sector/components/PortfolioD
 import PortfolioDetailsThreeGalleryTwo from '@/views/sector/components/PortfolioDetailsThreeGalleryTwo';
 import PortfolioDetailsThreeOverview from '@/views/sector/components/PortfolioDetailsThreeOverview';
 import PortfolioDetailsThreeGallery from '@/views/sector/components/PortfolioDetailsThreeGallery';
+import ServiceThreeFaq from '@/components/faq/ServiceThreeFaq';
 import CursorAndBackgroundProvider from '@/components/provider/CustomCursorProvider';
 import PortfolioDetailsThree from '@/views/sector/components/PortfolioDetailsThree';
 import AnimationWrapper from '@/components/shared/Animation/AnimationWrapper';
@@ -37,7 +38,7 @@ const SectorDetail = ({ sector }: SectorDetailProps) => {
                                 <PortfolioDetailsThreeOverview sector={sector} />
                                 <PortfolioDetailsThreePortfolio sector={sector} />
                                 <PortfolioDetailsThreeGallery sector={sector} />
-                                
+                                <ServiceThreeFaq faqs={sector.faqs} accordionId={`sector-${sector.slug}`} />
                             </main>
                             <DigitalMarketingFooter />
                         </div>

@@ -1,4 +1,5 @@
 import { StaticImageData } from "next/image";
+import { FaqEntry } from "./custom-d-t";
 
 export interface SectorData {
     id: number;
@@ -27,6 +28,7 @@ export interface SectorData {
         image: StaticImageData;
     };
     galleryImagesTwo: StaticImageData[];
+    faqs?: FaqEntry[];
     relatedSectors?: {
         id: number;
         title: string;
