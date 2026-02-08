@@ -29,7 +29,7 @@ const AboutUsLightMain = () => {
                         <div id="smooth-content">
                             <main>
                                 <AboutUsHero />
-                                {/* <AboutUsBrand /> */}
+                                <AboutUsBrand />
                                 <AboutUsBanner/>
                                 <DigitalMarketingAbout />
                                 <DigitalMarketingStep />

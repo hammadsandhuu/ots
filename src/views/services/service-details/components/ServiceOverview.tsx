@@ -1,6 +1,7 @@
+"use client";
 import serviceThumb from '../../../../../public/assets/img/service/service-details/service-details-thumb-1.jpg';
 import { CheckIconThree } from '@/svg';
-import Image from 'next/image';
+import { useHoverEffect } from '@/hooks/useHoverEffect';
 import { ServiceDetailData } from '@/types/service-d-t';
 
 interface ServiceOverviewProps {
@@ -8,10 +9,12 @@ interface ServiceOverviewProps {
 }
 
 const ServiceOverview = ({ service }: ServiceOverviewProps) => {
+    const { addToRefs } = useHoverEffect();
     const overviewImage = service.overviewImage ?? serviceThumb;
     const overviewText = service.overviewText ?? service.description;
     const overviewSubtitle = service.overviewSubtitle ?? "Our Approach";
     const overviewFeatures = service.overviewFeatures ?? [];
+    const imageSrc = typeof overviewImage === 'string' ? overviewImage : overviewImage.src;
 
     return (
         <div className="pp-service-details-overview-ptb pt-140 pb-110">
@@ -22,8 +25,8 @@ const ServiceOverview = ({ service }: ServiceOverviewProps) => {
                             <h4 className="pp-service-details-overview-title tp_fade_anim" data-delay=".3">Service Overview</h4>
                         </div>
                     </div>
-                    <div className="col-lg-6">
-                        <div className="pp-service-details-overview-wrapper">
+                    <div className="col-lg-6 align-self-stretch">
+                        <div className="pp-service-details-overview-wrapper h-100">
                             {overviewText && <p>{overviewText}</p>}
                             {overviewSubtitle && <h4>{overviewSubtitle}</h4>}
                             {overviewFeatures.length > 0 && (
@@ -37,10 +40,20 @@ const ServiceOverview = ({ service }: ServiceOverviewProps) => {
                             )}
                         </div>
                     </div>
-                    <div className="col-lg-6">
-                        <div className="pp-service-details-overview-thumb text-lg-end">
-                            <div className="tp_img_reveal">
-                                <Image src={overviewImage} alt={`${service.title} overview`} />
+                    <div className="col-lg-6 align-self-stretch">
+                        <div ref={addToRefs} className="pp-service-details-overview-thumb tp--hover-item text-lg-end h-100">
+                            <div
+                                className="tp--hover-img"
+                                data-displacement="/assets/img/webgl/1.jpg"
+                                data-intensity="0.6"
+                                data-speedin="1"
+                                data-speedout="1"
+                            >
+                                <img
+                                    src={imageSrc}
+                                    alt={`${service.title} overview`}
+                                    style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center' }}
+                                />
                             </div>
                         </div>
                     </div>

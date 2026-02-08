@@ -94,6 +94,7 @@
 }
 .ar-banner{
     &-wrap{
+        position: relative;
         height: 820px;
         overflow: hidden;
         @media #{$xxl}{
@@ -112,12 +113,21 @@
             height: 250px;
         }
         & img{
-            margin-top: -150px;
-            @media #{$xl,$lg,$md}{
-                margin-top: -50px;
-            }
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+        }
+        &-overlay{
+            position: absolute;
+            inset: 0;
+            z-index: 1;
+            background: rgba(0, 0, 0, 0.25);
+            pointer-events: none;
             @media #{$xs}{
-                margin-top: -20px;
+                display: none;
             }
         }
         &.about-us-4{

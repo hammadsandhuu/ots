@@ -6,16 +6,16 @@ import React from 'react';
 const AboutUsHero = () => {
     return (
         <div className="ar-hero-area p-relative" style={{ backgroundImage: `url(${aboutBg.src})` }}>
-            <div className="ar-about-us-4-shape">
+            {/* <div className="ar-about-us-4-shape">
                 <Image src={aboutShape} alt="about shape" />
-            </div>
+            </div> */}
             <div className="container container-1230">
                 <div className="ar-about-us-4-hero-ptb">
                     <div className="row justify-content-center">
                         <div className="col-xl-12">
                             <div className="ar-hero-title-box tp_fade_anim" data-delay=".3">
-                                <h3 className="ar-about-us-4-title">Fueling Minds <br />
-                                    Inspiring Designs..</h3>
+                                <h3 className="ar-about-us-4-title">Moving Cargo <br />
+                                    Delivering Trust.</h3>
                                 <div className="ar-about-us-4-title-box d-flex justify-content-end">
                                     <span className="tp-section-subtitle pre">About Us</span>
                                     <div className="ar-about-us-4-icon">
@@ -24,8 +24,8 @@ const AboutUsHero = () => {
                                             <path d="M77 7.96366L80.5 4.48183L77 1" stroke="#111013" strokeLinecap="round" strokeLinejoin="round" />
                                         </svg>
                                     </div>
-                                    <p>An independent web design and branding agency <br />
-                                        in Manchester set up in 2012 who care, build relationships, <br /> have industry experience, and win awards.</p>
+                                    <p>We are a logistics and freight partner built on reliability and experience. <br />
+                                        From door-to-door delivery to customs clearance and supply chain support, <br /> we deliver safe, on-time cargo solutions across global markets.</p>
                                 </div>
                             </div>
                         </div>

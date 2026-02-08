@@ -34,7 +34,7 @@ export interface ServiceSolutionItem {
     titleBr?: [string, string];
     categories: string[];
     delay?: string;
-    svgIcon?: React.ElementType;
+    svgIcon?: string; // Icon key e.g. "BrandingIcon", "UIUXDesignIcon", "WebDevelopmentIcon"
     link: string;
 }
 

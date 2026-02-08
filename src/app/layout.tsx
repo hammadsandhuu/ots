@@ -1,4 +1,4 @@
-
+import NextTopLoader from "nextjs-toploader";
 import { Inter, Besley, Space_Grotesk, Playfair_Display, Satisfy, Teko, Phudu, Poppins, Onest } from "next/font/google";
 import GlobalVideoModal from "@/components/Popup/GlobalVideoModal";
 import { VideoProvider } from "@/provider/VideoProvider";
@@ -100,6 +100,7 @@ export default function RootLayout({
      ${besley.variable} ${spaceGrotesk.variable} ${playfairDisplay.variable}
       ${satisfy.variable} ${teko.variable} ${phudu.variable} ${poppins.variable}
        ${onest.variable}`}>
+        <NextTopLoader color="#6366f1" height={3} showSpinner={false} />
         <AppProvider>
           <Wrapper>
             <VideoProvider>

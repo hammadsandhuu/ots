@@ -40,11 +40,30 @@
             }
         }
         &-thumb{
+            position: relative;
             overflow: hidden;
             margin-bottom: 26px;
             border-radius: 20px;
+            aspect-ratio: 16 / 10;
+            & .tp--hover-img{
+                position: absolute;
+                inset: 0;
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+                & canvas{
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                }
+            }
             & img{
                 width: 100%;
+                height: 100%;
+                object-fit: cover;
+                object-position: center;
                 transition: .9s;
                 border-radius: 20px;
             }
