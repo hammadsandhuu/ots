@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     const { slug } = await params;
     const member = getTeamMemberBySlug(slug);
     return {
-        title: member ? `Agntix - ${member.name}` : "Agntix - Team Details",
+        title: member ? `OTS - ${member.name}` : "OTS - Team Details",
     };
 }
 

@@ -10,7 +10,7 @@ const PortfolioDetailsTwoArea = ({ project }: PortfolioDetailsTwoAreaProps) => {
     { label: 'Client', value: project.client || 'N/A' },
     { label: 'Role', value: project.services || 'N/A' },
     { label: 'Duration', value: project.year || 'N/A' },
-    { label: 'Team', value: 'Agntix' },
+    { label: 'Team', value: 'OTS' },
   ];
 
   return (

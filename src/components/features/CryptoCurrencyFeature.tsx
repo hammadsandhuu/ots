@@ -77,7 +77,7 @@ const CryptoCurrencyFeature = () => {
                             <div className="tp-section-subtitle-gradient ct mb-20 tp_fade_anim" data-delay=".3">Features</div>
                             <h4 className="tp-section-title-onest tp-text-revel-anim">Supported tokens</h4>
                             <div className="tp_text_anim">
-                                <p>Agntix offers a comprehensive selection of digital assets <br />
+                                <p>OTS offers a comprehensive selection of digital assets <br />
                                     that meet our rigorous criteria for quality, safety, and regulatory <br />
                                     compliance</p>
                             </div>

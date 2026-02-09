@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 import sectors from '@/data/sectors/Sectors';
 
 export const metadata: Metadata = {
-    title: "Agntix - Sectors",
+    title: "OTS - Sectors",
 };
 
 const SectorsPage = () => {

@@ -2,7 +2,7 @@ import PortfolioWrapperSlider from '@/views/portfolios/portfolio-wrapper-slider/
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: "Agntix - Portfolio Wrapper Slider",
+    title: "OTS - Portfolio Wrapper Slider",
 };
 
 const page = () => {

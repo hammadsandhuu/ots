@@ -31,7 +31,7 @@ export const projects: ProjectDetailData[] = [
             { label: 'Client', value: 'Global Manufacturing Inc.' },
             { label: 'Role', value: 'Logistics Planning' },
             { label: 'Duration', value: '6 Months' },
-            { label: 'Team', value: 'Agntix Solutions' },
+            { label: 'Team', value: 'OTS Solutions' },
         ],
         bannerImage: bannerImage,
         brandOverview: {
@@ -65,7 +65,7 @@ export const projects: ProjectDetailData[] = [
             { label: 'Client', value: 'Fresh Foods Co.' },
             { label: 'Role', value: 'Cold Chain Logistics' },
             { label: 'Duration', value: '4 Months' },
-            { label: 'Team', value: 'Agntix Cold Chain' },
+            { label: 'Team', value: 'OTS Cold Chain' },
         ],
         bannerImage: bannerImage,
         brandOverview: {
@@ -99,7 +99,7 @@ export const projects: ProjectDetailData[] = [
             { label: 'Client', value: 'Harbor Industries' },
             { label: 'Role', value: 'Port Operations' },
             { label: 'Duration', value: '8 Months' },
-            { label: 'Team', value: 'Agntix Maritime' },
+            { label: 'Team', value: 'OTS Maritime' },
         ],
         bannerImage: bannerImage,
         brandOverview: {
@@ -133,7 +133,7 @@ export const projects: ProjectDetailData[] = [
             { label: 'Client', value: 'Heavy Industries Corp.' },
             { label: 'Role', value: 'Specialized Transport' },
             { label: 'Duration', value: '3 Months' },
-            { label: 'Team', value: 'Agntix Heavy Lift' },
+            { label: 'Team', value: 'OTS Heavy Lift' },
         ],
         bannerImage: bannerImage,
         brandOverview: {
@@ -167,7 +167,7 @@ export const projects: ProjectDetailData[] = [
             { label: 'Client', value: 'Luxury Interiors Ltd.' },
             { label: 'Role', value: 'White Glove Service' },
             { label: 'Duration', value: '2 Months' },
-            { label: 'Team', value: 'Agntix Premium' },
+            { label: 'Team', value: 'OTS Premium' },
         ],
         bannerImage: bannerImage,
         brandOverview: {
@@ -201,7 +201,7 @@ export const projects: ProjectDetailData[] = [
             { label: 'Client', value: 'Confidential' },
             { label: 'Role', value: 'Secure Logistics' },
             { label: 'Duration', value: '12 Months' },
-            { label: 'Team', value: 'Agntix Secure' },
+            { label: 'Team', value: 'OTS Secure' },
         ],
         bannerImage: bannerImage,
         brandOverview: {
@@ -235,7 +235,7 @@ export const projects: ProjectDetailData[] = [
             { label: 'Client', value: 'Premium Motors' },
             { label: 'Role', value: 'Vehicle Transport' },
             { label: 'Duration', value: '5 Months' },
-            { label: 'Team', value: 'Agntix Auto' },
+            { label: 'Team', value: 'OTS Auto' },
         ],
         bannerImage: bannerImage,
         brandOverview: {
@@ -269,7 +269,7 @@ export const projects: ProjectDetailData[] = [
             { label: 'Client', value: 'Individual Collectors' },
             { label: 'Role', value: 'Personal Auto Transport' },
             { label: 'Duration', value: '1 Month' },
-            { label: 'Team', value: 'Agntix Personal' },
+            { label: 'Team', value: 'OTS Personal' },
         ],
         bannerImage: bannerImage,
         brandOverview: {
@@ -303,7 +303,7 @@ export const projects: ProjectDetailData[] = [
             { label: 'Client', value: 'Tech Industries' },
             { label: 'Role', value: 'Express Air Freight' },
             { label: 'Duration', value: '24-48 Hours' },
-            { label: 'Team', value: 'Agntix Express' },
+            { label: 'Team', value: 'OTS Express' },
         ],
         bannerImage: bannerImage,
         brandOverview: {

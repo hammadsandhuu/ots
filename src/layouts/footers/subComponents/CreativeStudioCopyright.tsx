@@ -8,7 +8,7 @@ const CreativeStudioCopyright = () => {
                 <div className="row">
                     <div className="col-xl-12">
                         <div className="tp-copyright-content text-center">
-                            <h2 className="tp-copyright-big-text">Agntix.studio</h2>
+                            <h2 className="tp-copyright-big-text">OTS</h2>
                         </div>
                     </div>
                 </div>
@@ -16,7 +16,7 @@ const CreativeStudioCopyright = () => {
                     <div className="row">
                         <div className="col-lg-5">
                             <div className="tp-copyright-left text-center text-lg-start">
-                                <span>©{getCurrentYear()} Agntix Design Studio.</span>
+                                <span>©{getCurrentYear()} Ocean Trading Services.</span>
                             </div>
                         </div>
                         <div className="col-lg-7">

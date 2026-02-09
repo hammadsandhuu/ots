@@ -17,7 +17,7 @@ const StartupAgencyVideo = () => {
                         <p>
                             <span className="creative-choose-text-top">
                                 <QuoteIconFour />
-                                Agntix created
+                                OTS created
                             </span>
                             <br />
                             <span className="creative-choose-text-middle">something better then I ever</span>
@@ -31,7 +31,7 @@ const StartupAgencyVideo = () => {
                             </div>
                             <div className="creative-choose-avater-info">
                                 <h4>Hear from Dang</h4>
-                                <span>Co-Founder of Agntix</span>
+                                <span>Co-Founder of OTS</span>
                             </div>
                         </div>
                     </div>

@@ -22,7 +22,7 @@ const LoginForm = () => {
             <div className="tp-login-wrapper">
                 {/* --- header --- */}
                 <div className="tp-login-top text-center mb-30">
-                    <h3 className="tp-login-title">Login to Agntix.</h3>
+                    <h3 className="tp-login-title">Login to OTS.</h3>
                     <p>
                         Don’t have an account?{" "}
                         <span>
@@ -66,7 +66,7 @@ const LoginForm = () => {
                                 <label htmlFor="email">Your Email</label>
                             </div>
                             <div className="tp-login-input">
-                                <input id="email" type="email" placeholder="agntix@mail.com" />
+                                <input id="email" type="email" placeholder="info@otsksa.com" />
                             </div>
                         </div>
 

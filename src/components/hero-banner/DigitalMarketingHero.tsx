@@ -62,7 +62,7 @@ const DigitalMarketingHero = () => {
                 <div className="dgm-hero-bg" />
                 <div className="dgm-hero-video">
                     <video autoPlay muted loop playsInline>
-                        <source src={HERO_VIDEO_SRC} type="video/mp4" />
+                        <source src={"/assets/video/5.mp4"} type="video/mp4" />
                     </video>
                     <div className="dgm-hero-video-overlay" />
                 </div>

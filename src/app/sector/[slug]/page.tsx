@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     const { slug } = await params;
     const sector = getSectorBySlug(slug);
     return {
-        title: sector ? `Agntix - ${sector.title}` : "Agntix - Sector Detail",
+        title: sector ? `OTS - ${sector.title}` : "OTS - Sector Detail",
     };
 }
 

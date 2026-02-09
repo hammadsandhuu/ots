@@ -2,7 +2,7 @@ import PortfolioColTwoMain from '@/views/portfolios/portfolio-col-2/PortfolioCol
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: "Agntix - Portfolio Col 2 Light",
+    title: "OTS - Portfolio Col 2 Light",
 };
 
 const page = () => {

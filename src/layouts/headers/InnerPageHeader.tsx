@@ -14,7 +14,7 @@ const InnerPageHeader = ({ containerCls = " container-1750" }) => {
     return (
         <>
             <div id="header-sticky" className={`tp-header-area tp-header-inner-style tp-header-ptb 
-                tp-header-blur sticky-white-bg header-transparent mt-30 @@class ${isSticky ? 'header-sticky' : ''}`}>
+                tp-header-blur sticky-white-bg header-transparent @@class ${isSticky ? 'header-sticky' : ''}`}>
                 <div className={`container ${containerCls}`}>
                     <div className="row align-items-center">
                         <div className="col-xl-2 col-lg-6 col-6">

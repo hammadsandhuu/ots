@@ -28,7 +28,7 @@ const BrandShowcaseHero = () => {
                         <div className="col-lg-8">
                             <div className="tp-faq-text tp_fade_anim" data-delay=".5">
                                 <p className="m-0">
-                                    Agntix is a beacon of best innovation and the <br /> dynamic parent a company of wealcoder and many <br />
+                                    OTS is a beacon of best innovation and the <br /> dynamic parent a company of wealcoder and many <br />
                                     other subsidiaries.
                                 </p>
                             </div>

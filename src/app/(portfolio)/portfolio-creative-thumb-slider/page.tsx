@@ -2,7 +2,7 @@ import PortfolioCreativeThumbSlider from '@/views/portfolios/portfolio-creative/
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: "Agntix - Portfolio Creative Thumb Slider",
+    title: "OTS - Portfolio Creative Thumb Slider",
 };
 
 const page = () => {

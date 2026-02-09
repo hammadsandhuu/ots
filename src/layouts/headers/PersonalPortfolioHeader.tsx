@@ -26,7 +26,7 @@ const PersonalPortfolioHeader = () => {
                                 </div>
                                 <div className="tp-header-14-right d-flex align-items-center">
                                     <div className="tp-header-14-info d-none d-md-block">
-                                        <Link className="tp-line-white" href="mailto:hello@agntix.com">hello@agntix.com</Link>
+                                        <Link className="tp-line-white" href="mailto:hello@otsksa.com">hello@otsksa.com</Link>
                                     </div>
                                     <div className="tp-header-14-bar-wrap ml-20">
                                         <button onClick={() => setOpenOffCanvas(true)} className="tp-header-8-bar tp-offcanvas-open-btn">

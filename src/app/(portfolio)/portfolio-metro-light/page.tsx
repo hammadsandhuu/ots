@@ -2,7 +2,7 @@ import PortfolioMetroMain from '@/views/portfolios/portfolio-metro/PortfolioMetr
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: "Agntix - Portfolio Metro Light",
+    title: "OTS - Portfolio Metro Light",
 };
 
 const page = () => {

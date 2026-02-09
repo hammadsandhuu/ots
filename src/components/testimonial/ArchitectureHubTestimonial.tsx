@@ -12,15 +12,15 @@ const ArchitectureHubTestimonial = () => {
     const testimonials: TestimonialItem[] = [
         {
             id: 1,
-            content: "agntix began as a collaborative <br /> architectural and landscape workshop, and <br /> has remained true to its trans disciplinary way <br /> of thinking since its inception"
+            content: "OTS began as a collaborative <br /> architectural and landscape workshop, and <br /> has remained true to its trans disciplinary way <br /> of thinking since its inception"
         },
         {
             id: 2,
-            content: "agntix began as a collaborative <br /> architectural and landscape workshop, and <br /> has remained true to its trans disciplinary way <br /> of thinking since its inception"
+            content: "OTS began as a collaborative <br /> architectural and landscape workshop, and <br /> has remained true to its trans disciplinary way <br /> of thinking since its inception"
         },
         {
             id: 3,
-            content: "agntix began as a collaborative <br /> architectural and landscape workshop, and <br /> has remained true to its trans disciplinary way <br /> of thinking since its inception"
+            content: "OTS began as a collaborative <br /> architectural and landscape workshop, and <br /> has remained true to its trans disciplinary way <br /> of thinking since its inception"
         }
     ];
 

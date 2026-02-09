@@ -2,7 +2,7 @@ import PortfolioCoverflowMain from '@/views/portfolios/portfolio-coverflow/Portf
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Agntix - Portfolio Coverflow Slider Light",
+  title: "OTS - Portfolio Coverflow Slider Light",
 };
 
 const page = () => {

@@ -3,7 +3,7 @@ import { projects } from '@/data/projects/Projects';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: "Agntix - Portfolio Details Gallery Light",
+    title: "OTS - Portfolio Details Gallery Light",
 };
 
 const page = () => {

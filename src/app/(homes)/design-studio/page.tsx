@@ -2,7 +2,7 @@ import DesignStudioMain from '@/views/homes/design-studio/DesignStudioMain';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: "Agntix - Design Studio Light",
+    title: "OTS - Design Studio Light",
 };
 
 const page = () => {

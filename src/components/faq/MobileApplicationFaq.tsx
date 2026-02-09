@@ -5,7 +5,7 @@ const MobileApplicationFaq = () => {
     const faqItems = [
         {
             id: "collapseOne",
-            question: "What is Agntix?",
+            question: "What is OTS?",
             answer: "Track Your Income and Expenses: With our app, you can easily track your income and expenses, so you always know where your money is going.",
             show: true
         },

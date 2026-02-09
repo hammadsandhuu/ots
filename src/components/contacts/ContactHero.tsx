@@ -62,7 +62,7 @@ const ContactHero = () => {
                                             </div>
                                             <div className="ar-about-funfact-item-content">
                                                 <p>Need Support?</p>
-                                                <Link className="tp-line-white" href="mailto:agntixs@studio.com">agntixs@studio.com</Link>
+                                                <Link className="tp-line-white" href="mailto:info@otsksa.com">info@otsksa.com</Link>
                                             </div>
                                         </div>
                                         <div className="ar-about-funfact-item d-flex align-items-center">

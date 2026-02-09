@@ -32,7 +32,7 @@ import userImg7 from "../../public/assets/img/product/product-details-main/desc/
 const testimonialsData: TestimonialDT[] = [
     {
         id: 1,
-        quote: "“Agntix studio ability to create a high quality UI is stands out. It’s something we placed a premium on. A studio with passionate, professional, fun and full creativity.”",
+        quote: "“OTS studio ability to create a high quality UI is stands out. It’s something we placed a premium on. A studio with passionate, professional, fun and full creativity.”",
         name: "Albert Juan",
         position: "CEO & Founder, Archin Studio",
         avatar: avaterOne,
@@ -40,7 +40,7 @@ const testimonialsData: TestimonialDT[] = [
     },
     {
         id: 2,
-        quote: "“Agntix studio ability to create a high quality UI is stands out. It’s something we placed a premium on. A studio with passionate, professional, fun and full creativity.”",
+        quote: "“OTS studio ability to create a high quality UI is stands out. It’s something we placed a premium on. A studio with passionate, professional, fun and full creativity.”",
         name: "Koen Chegg",
         position: "CEO & Founder, Archin Studio",
         avatar: avaterTwo,
@@ -48,7 +48,7 @@ const testimonialsData: TestimonialDT[] = [
     },
     {
         id: 3,
-        quote: "“Agntix studio ability to create a high quality UI is stands out. It’s something we placed a premium on. A studio with passionate, professional, fun and full creativity.”",
+        quote: "“OTS studio ability to create a high quality UI is stands out. It’s something we placed a premium on. A studio with passionate, professional, fun and full creativity.”",
         name: "Warren Daniel",
         position: "CEO & Founder, Archin Studio",
         avatar: avaterThree,
@@ -56,7 +56,7 @@ const testimonialsData: TestimonialDT[] = [
     },
     {
         id: 4,
-        quote: "“Agntix studio ability to create a high quality UI is stands out. It’s something we placed a premium on. A studio with passionate, professional, fun and full creativity.”",
+        quote: "“OTS studio ability to create a high quality UI is stands out. It’s something we placed a premium on. A studio with passionate, professional, fun and full creativity.”",
         name: "Elvin Bond",
         position: "CEO & Founder, Archin Studio",
         avatar: avaterFour,
@@ -64,7 +64,7 @@ const testimonialsData: TestimonialDT[] = [
     },
     {
         id: 5,
-        quote: "“Agntix studio ability to create a high quality UI is stands out. It’s something we placed a premium on. A studio with passionate, professional, fun and full creativity.”",
+        quote: "“OTS studio ability to create a high quality UI is stands out. It’s something we placed a premium on. A studio with passionate, professional, fun and full creativity.”",
         name: "Abbas",
         position: "CEO & Founder, Archin Studio",
         avatar: avaterFive,
@@ -72,7 +72,7 @@ const testimonialsData: TestimonialDT[] = [
     },
     {
         id: 6,
-        quote: "“Agntix studio ability to create a high quality UI is stands out. It’s something we placed a premium on. A studio with passionate, professional, fun and full creativity.”",
+        quote: "“OTS studio ability to create a high quality UI is stands out. It’s something we placed a premium on. A studio with passionate, professional, fun and full creativity.”",
         name: "Jessamine Mumtaz",
         position: "CEO & Founder, Archin Studio",
         avatar: avaterSix,
@@ -80,7 +80,7 @@ const testimonialsData: TestimonialDT[] = [
     },
     {
         id: 7,
-        quote: "“Agntix studio ability to create a high quality UI is stands out. It’s something we placed a premium on. A studio with passionate, professional, fun and full creativity.”",
+        quote: "“OTS studio ability to create a high quality UI is stands out. It’s something we placed a premium on. A studio with passionate, professional, fun and full creativity.”",
         name: "Koen Chegg",
         position: "CEO & Founder, Archin Studio",
         avatar: avaterTwo,
@@ -91,33 +91,33 @@ const testimonialsData: TestimonialDT[] = [
         id: 8,
         avatar: avater7,
         name: "Bradley Gordon",
-        position: "Co-Founder of Agntix",
+        position: "Co-Founder of OTS",
         rating: 5,
-        quote: "Agntix went above and beyond to make sure we got something we were happy with."
+        quote: "OTS went above and beyond to make sure we got something we were happy with."
     },
     {
         id: 9,
         avatar: avater8,
         name: "Tisha Norton",
-        position: "Co-Founder of Agntix",
+        position: "Co-Founder of OTS",
         rating: 5,
-        quote: "The team at Agntix was incredibly attentive and made sure every detail was perfect."
+        quote: "The team at OTS was incredibly attentive and made sure every detail was perfect."
     },
     {
         id: 10,
         avatar: avater9,
         name: "Emma Berger",
-        position: "Co-Founder of Agntix",
+        position: "Co-Founder of OTS",
         rating: 5,
-        quote: "We're beyond satisfied — Agntix made the entire process seamless and rewarding."
+        quote: "We're beyond satisfied — OTS made the entire process seamless and rewarding."
     },
     {
         id: 11,
         avatar: avater10,
         name: "Mary Cruz",
-        position: "Co-Founder of Agntix",
+        position: "Co-Founder of OTS",
         rating: 5,
-        quote: "From start to finish, Agntix went the extra mile to ensure we were thrilled with the result."
+        quote: "From start to finish, OTS went the extra mile to ensure we were thrilled with the result."
     },
     //home four testimonial data end
 
@@ -222,7 +222,7 @@ const testimonialsData: TestimonialDT[] = [
         avatar: testimonial1,
         name: "Kate Leeman",
         position: "Head of Product, Designer",
-        quote: "I love how agntix helps me track my expenses and alerts me about upcoming bills. It's a must have app!",
+        quote: "I love how ots helps me track my expenses and alerts me about upcoming bills. It's a must have app!",
         rating: 5
     },
     {
@@ -230,7 +230,7 @@ const testimonialsData: TestimonialDT[] = [
         avatar: testimonial2,
         name: "Kate Leeman",
         position: "Head of Product, Designer",
-        quote: "I love how agntix helps me track my expenses and alerts me about upcoming bills. It's a must have app!",
+        quote: "I love how ots helps me track my expenses and alerts me about upcoming bills. It's a must have app!",
         rating: 5
     },
     {
@@ -238,7 +238,7 @@ const testimonialsData: TestimonialDT[] = [
         avatar: testimonial3,
         name: "Kate Leeman",
         position: "Head of Product, Designer",
-        quote: "I love how agntix helps me track my expenses and alerts me about upcoming bills. It's a must have app!",
+        quote: "I love how ots helps me track my expenses and alerts me about upcoming bills. It's a must have app!",
         rating: 5
     },
     {
@@ -246,7 +246,7 @@ const testimonialsData: TestimonialDT[] = [
         avatar: testimonial4,
         name: "Kate Leeman",
         position: "Head of Product, Designer",
-        quote: "I love how agntix helps me track my expenses and alerts me about upcoming bills. It's a must have app!",
+        quote: "I love how ots helps me track my expenses and alerts me about upcoming bills. It's a must have app!",
         rating: 5
     },
     {
@@ -254,7 +254,7 @@ const testimonialsData: TestimonialDT[] = [
         avatar: testimonial1,
         name: "Kate Leeman",
         position: "Head of Product, Designer",
-        quote: "I love how agntix helps me track my expenses and alerts me about upcoming bills. It's a must have app!",
+        quote: "I love how ots helps me track my expenses and alerts me about upcoming bills. It's a must have app!",
         rating: 5
     },
     {
@@ -262,7 +262,7 @@ const testimonialsData: TestimonialDT[] = [
         avatar: testimonial2,
         name: "Kate Leeman",
         position: "Head of Product, Designer",
-        quote: "I love how agntix helps me track my expenses and alerts me about upcoming bills. It's a must have app!",
+        quote: "I love how ots helps me track my expenses and alerts me about upcoming bills. It's a must have app!",
         rating: 5
     },
     {
@@ -270,7 +270,7 @@ const testimonialsData: TestimonialDT[] = [
         avatar: testimonial3,
         name: "Kate Leeman",
         position: "Head of Product, Designer",
-        quote: "I love how agntix helps me track my expenses and alerts me about upcoming bills. It's a must have app!",
+        quote: "I love how ots helps me track my expenses and alerts me about upcoming bills. It's a must have app!",
         rating: 5
     },
     {
@@ -278,7 +278,7 @@ const testimonialsData: TestimonialDT[] = [
         avatar: testimonial4,
         name: "Kate Leeman",
         position: "Head of Product, Designer",
-        quote: "I love how agntix helps me track my expenses and alerts me about upcoming bills. It's a must have app!",
+        quote: "I love how ots helps me track my expenses and alerts me about upcoming bills. It's a must have app!",
         rating: 5
     },
     //Home IT Solution testimonial data start
@@ -349,28 +349,28 @@ const testimonialsData: TestimonialDT[] = [
         id: 41,
         name: 'David Hussey',
         position: 'Co-Founder',
-        quote: 'We’ve had good experiences with calling centres through agntix. We hired my own remote team that I have <i>complete control over the remote</i> team that means work from home',
+        quote: 'We’ve had good experiences with calling centres through ots. We hired my own remote team that I have <i>complete control over the remote</i> team that means work from home',
         rating: 5
     },
     {
         id: 42,
         name: 'Kim Armstrong',
         position: 'Co-Founder',
-        quote: 'We’ve had good experiences with calling centres through agntix. We hired my own remote team that I have <i>complete control over the remote</i> team that means work from home',
+        quote: 'We’ve had good experiences with calling centres through ots. We hired my own remote team that I have <i>complete control over the remote</i> team that means work from home',
         rating: 5
     },
     {
         id: 43,
         name: 'David Hussey',
         position: 'Co-Founder',
-        quote: 'We’ve had good experiences with calling centres through agntix. We hired my own remote team that I have <i>complete control over the remote</i> team that means work from home',
+        quote: 'We’ve had good experiences with calling centres through ots. We hired my own remote team that I have <i>complete control over the remote</i> team that means work from home',
         rating: 5
     },
     {
         id: 44,
         name: 'Kim Armstrong',
         position: 'Co-Founder',
-        quote: 'We’ve had good experiences with calling centres through agntix. We hired my own remote team that I have <i>complete control over the remote</i> team that means work from home',
+        quote: 'We’ve had good experiences with calling centres through ots. We hired my own remote team that I have <i>complete control over the remote</i> team that means work from home',
         rating: 5
     },
     //startup agency testimonial data end

@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 import sectors from '@/data/sectors/Sectors';
 
 export const metadata: Metadata = {
-    title: "Agntix - Portfolio Details Creative Slider Light",
+    title: "OTS - Portfolio Details Creative Slider Light",
 };
 
 const page = () => {

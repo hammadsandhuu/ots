@@ -15,8 +15,8 @@ export const teamMembers: TeamMemberDetail[] = [
     detailImage: teamDetail,
     link: "/team/logan-dang",
     phone: "+(302) 555-0107",
-    email: "logan@agntix.com",
-    bio: "With over 15 years of experience in global logistics, Logan founded Agntix with a vision to revolutionize freight management. His expertise in supply chain optimization and strategic partnerships has helped hundreds of businesses streamline their operations.",
+    email: "logan@otsksa.com",
+    bio: "With over 15 years of experience in global logistics, Logan founded OTS with a vision to revolutionize freight management. His expertise in supply chain optimization and strategic partnerships has helped hundreds of businesses streamline their operations.",
     details: {
       location: "Dubai, UAE",
       age: "42",
@@ -24,7 +24,7 @@ export const teamMembers: TeamMemberDetail[] = [
       gender: "Male"
     },
     experience: [
-      "Founder & CEO at Agntix (2018-Present)",
+      "Founder & CEO at OTS (2018-Present)",
       "VP Operations at Global Freight Solutions (2012-2018)",
       "Logistics Manager at DHL Express (2008-2012)",
       "Supply Chain Analyst at Maersk (2005-2008)"
@@ -56,8 +56,8 @@ export const teamMembers: TeamMemberDetail[] = [
     detailImage: teamDetail,
     link: "/team/sophia-martinez",
     phone: "+(302) 555-0208",
-    email: "sophia@agntix.com",
-    bio: "Sophia brings exceptional operational expertise to Agntix, ensuring seamless coordination across all logistics operations. Her background in process optimization and quality management has significantly improved our service delivery standards.",
+    email: "sophia@otsksa.com",
+    bio: "Sophia brings exceptional operational expertise to OTS, ensuring seamless coordination across all logistics operations. Her background in process optimization and quality management has significantly improved our service delivery standards.",
     details: {
       location: "Abu Dhabi, UAE",
       age: "36",
@@ -65,7 +65,7 @@ export const teamMembers: TeamMemberDetail[] = [
       gender: "Female"
     },
     experience: [
-      "Operations Manager at Agntix (2020-Present)",
+      "Operations Manager at OTS (2020-Present)",
       "Senior Operations Lead at FedEx (2015-2020)",
       "Operations Coordinator at UPS (2012-2015)",
       "Quality Analyst at Amazon Logistics (2010-2012)"
@@ -97,7 +97,7 @@ export const teamMembers: TeamMemberDetail[] = [
     detailImage: teamDetail,
     link: "/team/daniel-chen",
     phone: "+(302) 555-0309",
-    email: "daniel@agntix.com",
+    email: "daniel@otsksa.com",
     bio: "Daniel excels at coordinating complex multi-modal shipments across international borders. His expertise in customs regulations and trade compliance ensures smooth cargo movement for our clients' most challenging logistics requirements.",
     details: {
       location: "Dubai, UAE",
@@ -106,7 +106,7 @@ export const teamMembers: TeamMemberDetail[] = [
       gender: "Male"
     },
     experience: [
-      "Logistics Coordinator at Agntix (2021-Present)",
+      "Logistics Coordinator at OTS (2021-Present)",
       "Freight Coordinator at Kuehne + Nagel (2017-2021)",
       "Shipping Agent at DB Schenker (2014-2017)",
       "Customs Specialist at Aramex (2012-2014)"
@@ -138,7 +138,7 @@ export const teamMembers: TeamMemberDetail[] = [
     detailImage: teamDetail,
     link: "/team/emily-johnson",
     phone: "+(302) 555-0410",
-    email: "emily@agntix.com",
+    email: "emily@otsksa.com",
     bio: "Emily leads our supply chain strategy, leveraging data analytics and technology to optimize inventory management and distribution networks. Her innovative approach has helped clients achieve significant cost savings while improving delivery performance.",
     details: {
       location: "Sharjah, UAE",
@@ -147,7 +147,7 @@ export const teamMembers: TeamMemberDetail[] = [
       gender: "Female"
     },
     experience: [
-      "Supply Chain Manager at Agntix (2019-Present)",
+      "Supply Chain Manager at OTS (2019-Present)",
       "Supply Chain Analyst at CEVA Logistics (2015-2019)",
       "Procurement Specialist at Agility (2011-2015)",
       "Inventory Planner at Emirates Group (2008-2011)"

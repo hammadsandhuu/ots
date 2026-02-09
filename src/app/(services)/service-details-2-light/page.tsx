@@ -2,7 +2,7 @@ import ServiceDetailsTwoMain from '@/views/services/service-details/ServiceDetai
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: "Agntix - Service details 2 Light",
+    title: "OTS - Service details 2 Light",
 };
 
 const page = () => {

@@ -2,7 +2,7 @@ import PortfolioInteractiveHover from '@/views/portfolios/Portfolio-Interactive/
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: "Agntix - Portfolio Interactive With Hover",
+    title: "OTS - Portfolio Interactive With Hover",
 };
 
 const page = () => {

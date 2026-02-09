@@ -27,7 +27,7 @@ const CareerDetails = () => {
                             </div>
                             <div className="tp-career-details-wrap">
                                 <h4 className="tp-career-details-title-2">Job Summary</h4>
-                                <p className="pb-50">We are seeking a Product Designer to join our team at Agntix. In this role, you will help craft
+                                <p className="pb-50">We are seeking a Product Designer to join our team at OTS. In this role, you will help craft
                                     the visual and interactive elements of our software products, ensuring a seamless and intuitive user experience. You will collaborate with our product and development teams to create innovative, user-centered designs.</p>
 
                                 <h4 className="tp-career-details-title-2">Key Responsibilities</h4>
@@ -61,7 +61,7 @@ const CareerDetails = () => {
                                 </div>
 
                                 <h4 className="tp-career-details-title-2">Perks & Benefits</h4>
-                                <p>We are seeking a Product Designer to join our team at Agntix. In this role, you will help craft <br />
+                                <p>We are seeking a Product Designer to join our team at OTS. In this role, you will help craft <br />
                                     the visual and interactive elements of our software products.</p>
                                 <div className="tp-career-details-list pb-20">
                                     <ul>

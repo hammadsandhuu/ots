@@ -22,7 +22,7 @@ const StartupAgencyService = () => {
                             </h3>
                             <div className="tp_text_anim">
                                 <p>
-                                    Agntix power of our 8+ years of experience. We build excellence works. <br />
+                                    OTS power of our 8+ years of experience. We build excellence works. <br />
                                     That will help you to grow your business products.
                                 </p>
                             </div>

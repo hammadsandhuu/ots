@@ -17,7 +17,7 @@ const CreativeAbout = () => {
                         <div className="col-lg-6">
                             <div className="tp-about-us-2-text d-flex justify-content-between">
                                 <div className="tp-about-us-2-text-1">
-                                    <p>@agntix.studio</p>
+                                    <p>OTS</p>
                                 </div>
                                 <div className="tp-about-us-2-text-2 pr-200">
                                     <p>(About)</p>
@@ -36,7 +36,7 @@ const CreativeAbout = () => {
                         <div className="col-lg-6">
                             <div className="tp-about-us-2-thumb anim-zoomin-wrap p-relative text-center">
                                 <div className="anim-zoomin">
-                                    <Image style={{width:"auto", height:"auto"}} priority src={aboutImg1} alt="Agntix studio"/>
+                                    <Image style={{width:"auto", height:"auto"}} priority src={aboutImg1} alt="OTS studio"/>
                                 </div>
                                 <div className="tp-about-us-2-thumb-shape">
                                     <div className="shape-1">
@@ -61,7 +61,7 @@ const CreativeAbout = () => {
                                     <Link href="#" className="hover-underline">Introduction</Link>
                                 </div>
                                 <div className="tp-about-us-2-heading">
-                                    <span className="tp-about-us-2-subtitle">About Agntix</span>
+                                    <span className="tp-about-us-2-subtitle">About OTS</span>
                                     <h3 className="tp-about-us-2-title tp-text-revel-anim">
                                         Our <br />Studio
                                     </h3>

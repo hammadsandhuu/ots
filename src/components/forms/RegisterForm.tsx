@@ -20,7 +20,7 @@ const RegisterForm = () => {
         <form onSubmit={handleSubmit}>
             <div className="tp-login-wrapper">
                 <div className="tp-login-top text-center mb-30">
-                    <h3 className="tp-login-title">Sign Up Agntix.</h3>
+                    <h3 className="tp-login-title">Sign Up OTS.</h3>
                     <p>Don’t have an account? <span><Link href="/login">Sign In</Link></span></p>
                 </div>
                 <div className="tp-login-option">
@@ -59,7 +59,7 @@ const RegisterForm = () => {
                                 <label htmlFor="email">Your Email</label>
                             </div>
                             <div className="tp-login-input">
-                                <input id="email" type="email" placeholder="agntix@mail.com" />
+                                <input id="email" type="email" placeholder="info@otsksa.com" />
                             </div>
                         </div>
                         <div className="tp-login-input-box">

@@ -2,7 +2,7 @@ import PortfolioSlicerElegant from '@/views/portfolios/portfolio-slider-elegant/
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Agntix - Portfolio Slicer elegant Light",
+  title: "OTS - Portfolio Slicer elegant Light",
 };
 
 const page = () => {

@@ -30,8 +30,8 @@ const BlogSidebarAuthorInfo = () => {
                 <div className="sidebar-widget-author-btn">
                     <Link className="tp-btn-yellow-green sidebar-btn w-100" href="#">
                         <span>
-                            <span className="text-1">Agntix Theme</span>
-                            <span className="text-2">Agntix Theme</span>
+                            <span className="text-1">OTS Theme</span>
+                            <span className="text-2">OTS Theme</span>
                         </span>
                     </Link>
                 </div>

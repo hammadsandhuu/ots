@@ -99,7 +99,7 @@ const PortfolioDetailsVideoMain = () => {
                 <div className="project-details-1-info-wrap mb-120 flex-wrap d-flex justify-content-between align-items-center">
                   <div className="project-details-1-info">
                     <span>Client</span>
-                    <h4>AgntixTheme</h4>
+                    <h4>OTSTheme</h4>
                   </div>
                   <div className="project-details-1-info">
                     <span>Agency</span>

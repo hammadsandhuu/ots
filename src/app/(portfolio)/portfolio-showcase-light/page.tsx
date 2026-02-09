@@ -2,7 +2,7 @@ import PortfolioShowcaseMain from '@/views/portfolios/portfolio-showcase/Portfol
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: "Agntix - Portfolio Showcase Light",
+    title: "OTS - Portfolio Showcase Light",
 };
 
 const page = () => {

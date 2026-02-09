@@ -21,7 +21,7 @@ const StartupAgencyFooter = () => {
                                     </div>
                                     <div className="st-footer-widget-content">
                                         <p>
-                                            @ 2025 Copyright - Agntix | Design by <br />
+                                            @ 2025 Copyright - OTS | Design by <br />
                                             <Link href="#">“Aqlova’’</Link> | Powered by Envato
                                         </p>
                                     </div>

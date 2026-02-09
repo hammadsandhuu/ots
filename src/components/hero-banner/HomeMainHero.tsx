@@ -25,7 +25,7 @@ const HomeMainHero = () => {
                     <div className="col-xl-3">
                         <div className="tp-hero-content-wrap d-flex flex-xl-column justify-content-between pb-20">
                             <div className="tp-hero-info d-flex align-items-start justify-content-between tp_text_anim">
-                                <p>Hey! is the ultimate Agntix <br /> Agency template for professionals <br /> in the design industry.</p>
+                                <p>Premier logistics and supply chain <br /> solutions across Saudi Arabia <br /> and beyond.</p>
                                 <span>
                                     <Link href="/contact">
                                         <ArrowSvg width="22" height="22" color="currentcolor" viewBox="0 0 22 22" pathValue="M1 21L21 1M21 1H1M21 1V21" />

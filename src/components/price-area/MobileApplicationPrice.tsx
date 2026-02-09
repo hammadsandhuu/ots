@@ -49,7 +49,7 @@ const MobileApplicationPrice = () => {
                                     <p><span><Image src={googleStore} alt="google-store" /></span>Play Store</p>
                                 </div>
                                 <div className="app-price-heading">
-                                    <p>Unlock the full potential of Agntix app with our <br />
+                                    <p>Unlock the full potential of OTS app with our <br />
                                         flexible pricing options.</p>
                                 </div>
                             </div>

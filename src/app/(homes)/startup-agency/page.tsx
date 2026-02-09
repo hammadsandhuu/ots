@@ -2,7 +2,7 @@ import StartupagencyMain from '@/views/homes/startup-agency/StartupagencyMain';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: "Agntix - Startup agency Light",
+    title: "OTS - Startup agency Light",
 };
 
 

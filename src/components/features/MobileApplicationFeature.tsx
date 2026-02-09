@@ -76,7 +76,7 @@ const MobileApplicationFeature = () => {
                     <div className="col-lg-8">
                         <div className="app-feature-bottom text-center mt-20">
                             <p>
-                                <span>Hurray</span>Subscribe <Link href="#">Agntix application</Link> and get a special discount.
+                                <span>Hurray</span>Subscribe <Link href="#">OTS application</Link> and get a special discount.
                             </p>
                         </div>
                     </div>

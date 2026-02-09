@@ -10,8 +10,8 @@ type Props = {
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
     const { slug } = await params;
     const service = getServiceDetailBySlug(slug);
-    if (!service) return { title: "Agntix - Service Not Found" };
-    return { title: `Agntix - ${service.title}` };
+    if (!service) return { title: "OTS - Service Not Found" };
+    return { title: `OTS - ${service.title}` };
 }
 
 export function generateStaticParams() {

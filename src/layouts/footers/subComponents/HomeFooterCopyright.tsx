@@ -11,7 +11,7 @@ const HomeFooterCopyright = ({ bgColor }: { bgColor?: string }) => {
                     <div className="col-xl-12">
                         <div className="tp-copyright-content text-center text-md-start tp_fade_anim">
                             <h2 className="tp-copyright-big-text tp_fade_anim p-relative" data-delay=".5" data-fade-from="bottom" data-ease="bounce" data-on-scroll="3">
-                                Agntix.studio
+                                OTS
                                 <Image className="tp-copyright-img d-none d-md-block" src={footerShape} alt="footer-shape" />
                             </h2>
                         </div>
@@ -21,7 +21,7 @@ const HomeFooterCopyright = ({ bgColor }: { bgColor?: string }) => {
                     <div className="row">
                         <div className="col-md-6">
                             <div className="tp-copyright-left text-center text-md-start">
-                                <span>©{getCurrentYear()} Agntix Design Studio.</span>
+                                <span>©{getCurrentYear()} Ocean Trading Services.</span>
                             </div>
                         </div>
                         <div className="col-md-6">

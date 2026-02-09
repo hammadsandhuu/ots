@@ -29,7 +29,7 @@ const CreativeStudioFooter = ({ buttonCls = "" }) => {
             </div>
 
             <div className="creative-footer-text d-none d-lg-block">
-                <p>Agntix I’ve gone too far, send me back up 👆</p>
+                <p>OTS I’ve gone too far, send me back up 👆</p>
             </div>
 
             {/* -- footer area start -- */}
@@ -61,7 +61,7 @@ const CreativeStudioFooter = ({ buttonCls = "" }) => {
                             <div className="tp-footer-widget tp-footer-col-3 pb-40 mb-30 tp_fade_anim" data-delay=".7" data-on-scroll="3">
                                 <h4 className="tp-footer-widget-title-sm pre mb-20">Contact</h4>
                                 <div className="tp-footer-widget-info">
-                                    <Link href="mailto:agntixs@studio.com">agntixs@studio.com</Link>
+                                    <Link href="mailto:info@otsksa.com">info@otsksa.com</Link>
                                     <Link href="tel:+3025550107">+(302) 555-0107</Link>
                                 </div>
                                 <div className="tp-footer-widget-info">

@@ -2,7 +2,7 @@ import PortfolioDetailsClassic from '@/views/portfolios/portfolio-details-classi
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: "Agntix - Portfolio details classic Light",
+    title: "OTS - Portfolio details classic Light",
 };
 
 const page = () => {

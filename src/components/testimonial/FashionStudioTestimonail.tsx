@@ -14,7 +14,7 @@ const FashionStudioTestimonail = () => {
                     <div className="col-xl-7">
                         <div className="tp-testimonial-15-content z-index-5 p-relative">
                             <p>
-                                Agntix is one of the top Framer
+                                OTS is one of the top Framer
                                 Experts in our community. {`I'm`} a
                                 huge fan of his work and his
                                 Swiss typographic style.

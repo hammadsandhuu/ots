@@ -1,0 +1,390 @@
+@use '../../utils' as *;
+
+/*----------------------------------------*/
+/*  Sector Detail – hero and section styles (separate from project-slider)
+/*----------------------------------------*/
+
+// Fix header spacing for sector detail pages
+.tp-header-area.tp-header-inner-style {
+    margin-top: 0 !important;
+    padding-top: 20px;
+    @media (min-width: 992px) {
+      padding-top: 20px;
+    }
+    @media (max-width: 991.98px) {
+      padding-top: 15px;
+    }
+}
+
+// Sector detail hero area wrapper
+.tp-pd-3-hero-area {
+    padding-top: 0;
+    margin-top: 0;
+    @media (max-width: 991.98px) {
+      padding-top: 0;
+      margin-top: 0;
+    }
+    .tp-pd-3-hero-style {
+      padding-top: 0;
+      margin-top: 0;
+      @media (max-width: 991.98px) {
+        padding-top: 0;
+        margin-top: 0;
+      }
+    }
+    .container-fluid {
+      @media (min-width: 992px) {
+        padding-left: 2rem;
+        padding-right: 2rem;
+      }
+      @media (max-width: 991.98px) {
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
+}
+
+// Sector detail hero area (used in PortfolioDetailsThree)
+.tp-pd-3-hero-area .sector-detail-hero-thumb {
+    @media (min-width: 992px) {
+      border-radius: 20px;
+      aspect-ratio: 22 / 10;
+      padding-top: 100px;
+      margin-top: 10px;
+      img,
+      .sector-hero-image {
+        border-radius: 20px;
+      }
+    }
+    @media (max-width: 991.98px) {
+      border-radius: 0;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+      height: 65vh;
+      min-height: 500px;
+      max-height: 600px;
+      img,
+      .sector-hero-image {
+        border-radius: 0;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        object-fit: cover;
+        object-position: center 35%;
+      }
+    }
+    @media #{$xs} {
+      height: 60vh;
+      min-height: 450px;
+      max-height: 550px;
+      img,
+      .sector-hero-image {
+        object-position: center 40%;
+      }
+    }
+}
+
+// Portfolio item spacing on mobile
+.tp-pd-3-hero-area .des-portfolio-item {
+    @media (max-width: 991.98px) {
+      margin-bottom: 0;
+    }
+}
+
+// Dark overlay on sector hero image
+.tp-pd-3-hero-area .sector-detail-hero-overlay {
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    pointer-events: none;
+    border-radius: inherit;
+    @media (min-width: 992px) {
+      background-color: rgba(0, 0, 0, 0.45);
+    }
+    @media (max-width: 991.98px) {
+      background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.25) 0%,
+        rgba(0, 0, 0, 0.45) 40%,
+        rgba(0, 0, 0, 0.75) 100%
+      );
+    }
+}
+
+// Sector detail hero content (title + description) - positioned over image like home hero
+.tp-pd-3-hero-area .sector-detail-hero-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    padding: 20px 2.5rem 40px 4rem;
+    @media #{$xl} {
+      padding-left: 5rem;
+      padding-top: 20px;
+    }
+    @media #{$lg} {
+      padding-left: 4rem;
+      padding-top: 20px;
+    }
+    @media #{$md} {
+      padding: 20px 2rem 32px 3rem;
+    }
+    @media (max-width: 991.98px) {
+      padding-top: 0;
+      padding-bottom: 28px;
+      padding-left: 1.25rem;
+      padding-right: 1.25rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      min-height: 100%;
+    }
+    @media #{$xs} {
+      padding-bottom: 20px;
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+    .container {
+      @media (max-width: 991.98px) {
+        padding-left: 0;
+        padding-right: 0;
+      }
+    }
+}
+
+// Sector hero main wrapper
+.tp-pd-3-hero-area .sector-hero-main {
+    display: flex;
+    flex-direction: column;
+    @media (max-width: 991.98px) {
+      flex-direction: column;
+    }
+}
+
+.sector-detail-hero-title {
+    font-weight: 700;
+    font-size: 120px;
+    line-height: 0.9;
+    margin-top: 0;
+    margin-bottom: 24px;
+    letter-spacing: -0.04em;
+    color: #fff;
+    font-family: var(--tp-ff-grotesk);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
+    @media (max-width: 1399.98px) {
+      font-size: 100px;
+    }
+    @media #{$lg} {
+      font-size: 85px;
+    }
+    @media (max-width: 991.98px) {
+      font-size: 56px;
+      line-height: 1.2;
+      margin-bottom: 14px;
+      letter-spacing: -0.015em;
+    }
+    @media #{$md} {
+      font-size: 42px;
+      line-height: 1.25;
+    }
+    @media #{$xs} {
+      font-size: 38px;
+      line-height: 1.3;
+      margin-bottom: 10px;
+      letter-spacing: -0.01em;
+    }
+}
+
+.sector-detail-hero-desc {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.95);
+    margin-bottom: 0;
+    letter-spacing: -0.01em;
+    max-width: 720px;
+    @media #{$lg} {
+      font-size: 17px;
+    }
+    @media (max-width: 991.98px) {
+      font-size: 15px;
+      line-height: 1.5;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    @media #{$xs} {
+      font-size: 14px;
+      line-height: 1.5;
+    }
+}
+
+// Sector hero social links box
+.tp-pd-3-hero-area .sector-hero-social-box {
+    position: absolute;
+    top: 50%;
+    left: 40px;
+    transform: translateY(-50%);
+    z-index: 3;
+    @media (max-width: 1399.98px) {
+      display: none;
+    }
+}
+
+.tp-pd-3-hero-area .sector-hero-social-text {
+    writing-mode: vertical-lr;
+    margin-bottom: 20px;
+    span {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 1;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+      color: var(--tp-common-white);
+      &::after {
+        margin-top: 7px;
+        content: '';
+        height: 60px;
+        width: 1px;
+        display: inline-block;
+        transform: translateX(-2px);
+        background-color: var(--tp-common-white);
+      }
+    }
+}
+
+.tp-pd-3-hero-area .sector-hero-social {
+    a {
+      margin-bottom: 20px;
+      display: table;
+      span {
+        color: var(--tp-common-white);
+      }
+    }
+}
+
+// Sector hero Contact Us CTA box
+.tp-pd-3-hero-area .sector-hero-thumb {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 44.4%;
+    height: 100%;
+    z-index: 3;
+    @media (max-width: 991.98px) {
+      display: none;
+    }
+}
+
+.tp-pd-3-hero-area .sector-hero-text-box {
+    width: 260px;
+    height: 260px;
+    position: absolute;
+    bottom: 30px;
+    right: 80px;
+    padding: 30px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    @media #{$lg} {
+      right: 40px;
+      bottom: 20px;
+    }
+}
+
+.tp-pd-3-hero-area .sector-hero-text-box-link {
+    display: block;
+    font-weight: 300;
+    font-size: 45px;
+    line-height: 1.06;
+    margin-bottom: 0;
+    margin-top: 10px;
+    color: var(--tp-common-black);
+    font-family: var(--tp-ff-mango-semibold);
+    text-decoration: none;
+    transition: color 0.2s ease;
+    &:hover {
+      color: var(--tp-common-secondary);
+    }
+}
+
+.tp-pd-3-hero-area .sector-hero-arrow {
+    height: 46px;
+    width: 46px;
+    line-height: 46px;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    background-color: var(--tp-common-white);
+    position: absolute;
+    top: 10px;
+    right: 2px;
+    transition: background-color 0.2s ease;
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.9);
+    }
+}
+
+// Sector hero fun facts
+.tp-pd-3-hero-area .sector-hero-funfact {
+    span {
+      display: inline-block;
+      font-weight: 500;
+      font-size: 56px;
+      line-height: 0.5;
+      margin-bottom: 20px;
+      margin-top: 20px;
+      letter-spacing: -0.04em;
+      color: var(--tp-common-white);
+      font-family: var(--tp-ff-grotesk);
+      i {
+        font-style: normal;
+      }
+      @media (max-width: 991.98px) {
+        font-size: 42px;
+        margin-bottom: 15px;
+      }
+      @media #{$xs} {
+        font-size: 36px;
+        margin-bottom: 12px;
+      }
+    }
+    p {
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 1.3;
+      margin-bottom: 0;
+      max-width: 200px;
+      color: rgba(255, 255, 255, 0.95);
+      @media (max-width: 991.98px) {
+        font-size: 14px;
+        max-width: 180px;
+      }
+      @media #{$xs} {
+        font-size: 13px;
+        max-width: 160px;
+      }
+    }
+    &-wrap {
+      margin-top: 15px;
+      @media (min-width: 992px) {
+        margin-top: 15px;
+      }
+      @media (max-width: 991.98px) {
+        margin-bottom: 20px;
+        margin-top: 20px;
+      }
+      @media #{$xs} {
+        margin-top: 15px;
+        margin-bottom: 15px;
+      }
+    }
+}
+
+// Sector hero main content wrapper
+.tp-pd-3-hero-area .sector-hero-main-content {
+    @media (max-width: 991.98px) {
+      margin-bottom: 30px;
+    }
+}

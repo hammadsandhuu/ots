@@ -8,7 +8,7 @@ const ITSolutionFaq = () => {
     const faqData: FAQItemDT[] = [
         {
             id: 'collapseOne1',
-            question: 'What is Agntix?',
+            question: 'What is OTS?',
             answer: 'Track Your Income and Expenses: With our app, you can easily track your income and expenses, so you always know where your money is going.',
             isOpen: true
         },

@@ -1,4 +1,4 @@
-import agntixImg from "../../../../public/assets/img/home-05/footer/agntix.png"
+import otsImg from "../../../../public/assets/img/home-05/footer/ots.png"
 import { getCurrentYear } from "@/utils/getCurrentYear";
 import { BacktoTopArrowFooter } from "@/svg/ArrowIcons";
 import Image from 'next/image';
@@ -11,7 +11,7 @@ const DesignAgencyCopyright = () => {
                 <div className="row">
                     <div className="col-md-6">
                         <div className="design-copyright-text text-center text-md-start mb-10">
-                            <p>© {getCurrentYear()} Agntix, All rights reserved.</p>
+                            <p>© {getCurrentYear()} OTS, All rights reserved.</p>
                         </div>
                     </div>
                     <div className="col-md-6">
@@ -25,7 +25,7 @@ const DesignAgencyCopyright = () => {
                 </div>
             </div>
             <div className="design-copyright-big-text pt-120">
-                <Image style={{ width: "100%", height: "auto" }} src={agntixImg} alt="agntix-image" />
+                <Image style={{ width: "100%", height: "auto" }} src={otsImg} alt="OTS" />
             </div>
         </div>
     );

@@ -20,7 +20,7 @@ import img17 from '../../../public/assets/img/17.webp';
 import ImageTrail from '@/utils/ImageTrail';
 import Link from 'next/link';
 
-const CreativeAgencyHero = ({ title = "Agntix", fontStyle="" }) => {
+const CreativeAgencyHero = ({ title = "OTS", fontStyle="" }) => {
     // Create an array of image data
     const images = [
         { id: 1, src: img1 },
@@ -49,9 +49,9 @@ const CreativeAgencyHero = ({ title = "Agntix", fontStyle="" }) => {
                     <div className="row">
                         <div className="col-xl-12">
                             <div className="studio-hero-info z-index-5 d-flex justify-content-md-between justify-content-center align-items-center">
-                                <Link href="mailto:@agntix.studio">@agntix.studio</Link>
+                                <Link href="mailto:info@otsksa.com">info@otsksa.com</Link>
                                 <span>Motion design <br /> Studio</span>
-                                <Link href="mailto:@agntix.studio">@agntix.studio</Link>
+                                <Link href="mailto:info@otsksa.com">info@otsksa.com</Link>
                             </div>
                         </div>
                     </div>

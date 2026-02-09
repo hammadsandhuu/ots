@@ -2,7 +2,7 @@ import PortfolioDetailsVideo from '@/views/portfolios/portfolio-details-video/Po
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: "Agntix - Portfolio Details Video Light",
+    title: "OTS - Portfolio Details Video Light",
 };
 
 const page = () => {

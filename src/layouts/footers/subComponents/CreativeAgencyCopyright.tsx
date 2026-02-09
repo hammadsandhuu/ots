@@ -16,7 +16,7 @@ const CreativeAgencyCopyright: React.FC<FooterProps> = ({ bgColor = "#1b1b1d", Z
                     <div className="col-xl-12">
                         <div className="tp-copyright-content text-center text-md-start tp_fade_anim" data-delay=".3" data-fade-from="bottom" data-ease="bounce">
                             <h2 className="tp-copyright-big-text">
-                                Agntix.studio
+                                OTS
                             </h2>
                         </div>
                     </div>
@@ -25,7 +25,7 @@ const CreativeAgencyCopyright: React.FC<FooterProps> = ({ bgColor = "#1b1b1d", Z
                     <div className="row">
                         <div className="col-md-6">
                             <div className="tp-copyright-left text-center text-md-start">
-                                <span>©{getCurrentYear()} Agntix Design Studio.</span>
+                                <span>©{getCurrentYear()} Ocean Trading Services.</span>
                             </div>
                         </div>
                         <div className="col-md-6">

@@ -2,7 +2,7 @@ import PortfolioInteractiveScroll from '@/views/portfolios/portfolio-interactive
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: "Agntix - Portfolio Interactive With Scroll",
+    title: "OTS - Portfolio Interactive With Scroll",
 };
 
 const page = () => {

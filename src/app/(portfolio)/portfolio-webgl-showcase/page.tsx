@@ -3,7 +3,7 @@ import PortfolioWebglMain from '@/views/portfolios/portfolio-webgl/PortfolioWebg
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: "Agntix - Portfolio Webgl Showcase",
+    title: "OTS - Portfolio Webgl Showcase",
 };
 
 const page = () => {

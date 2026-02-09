@@ -43,7 +43,7 @@ const CreativeAboutTwo = () => {
                                 </p>
                                 <p className="mb-40">
                                     As an award-winning agency with
-                                    in the digital jungle, agntix® transcends aesthetics,
+                                    in the digital jungle, ots® transcends aesthetics,
                                     crafting your vision into a legacy that endures.
                                 </p>
                                 <div className="tp_fade_anim" data-fade-from="top" data-delay=".7" data-ease="bounce">

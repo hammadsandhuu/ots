@@ -1,36 +1,41 @@
-import thumb1 from "../../../public/assets/img/contact/contact-us/contact-us-thumb-1.jpg";
-import thumb2 from "../../../public/assets/img/contact/contact-location-2.jpg";
-import thumb3 from "../../../public/assets/img/contact/contact-location-3.jpg";
+import thumb1 from "../../../public/assets/img/home-03/contact/Riyadh.png";
+import thumb2 from "../../../public/assets/img/home-03/contact/Jeddah.png";
+import thumb3 from "../../../public/assets/img/home-03/contact/KSA.png";
 import Image from "next/image";
 import Link from "next/link";
 
 const ContactUsArea = () => {
   const contactData = [
     {
-      title: "San Francisco",
+      title: "Riyadh Office",
+      company: "Ocean Trading Services",
+      address: "102, First floor Dabbab St. Near Al Awwal Bank, PO. Box–50659, Riyadh–11533, Saudi Arabia",
       img: thumb1,
-      email: "sydney@contact.com",
-      phone: "(+91) 76001726",
-      mapLink: "https://www.google.com/maps",
+      email: "Shahr.azim@otsksa.com",
+      phone: "+966 (20) 7700 1007",
+      mapLink: "https://www.google.com/maps/search/102+First+floor+Dabbab+St+Near+Al+Awwal+Bank+PO+Box+50659+Riyadh+11533+Saudi+Arabia",
       btnClass: "tp-btn-yellow-green w-100",
       speed: "1.2",
     },
     {
       title: "KSA",
-      img: thumb2,
+      company: "Ocean Trading Services",
+      address: "Main Office - Saudi Arabia",
+      img: thumb3,
       email: "Shahr.azim@otsksa.com",
-      phone: "+ 4 (20) 7700 1007",
-      mapLink: "https://www.google.com/maps",
+      phone: "+966 (20) 7700 1007",
+      mapLink: "https://www.google.com/maps/search/Ocean+Trading+Services+Saudi+Arabia",
       btnClass: "tp-btn-yellow-green active w-100",
       speed: ".9",
-      extraClass: "mt-60",
     },
     {
-      title: "New Zealand",
-      img: thumb3,
-      email: "sydney@contact.com",
-      phone: "(+91) 76001726",
-      mapLink: "https://www.google.com/maps",
+      title: "Jeddah Office",
+      company: "Ocean Trading Services",
+      address: "Surooh Business Center, 3rd Floor, Office no. 9, Hail Street, Jeddah, Saudi Arabia",
+      img: thumb2,
+      email: "Shahr.azim@otsksa.com",
+      phone: "+966 (20) 7700 1007",
+      mapLink: "https://www.google.com/maps/search/Surooh+Business+Center+3rd+Floor+Office+no+9+Hail+Street+Jeddah+Saudi+Arabia",
       btnClass: "tp-btn-yellow-green w-100",
       speed: "1.2",
     },
@@ -43,8 +48,7 @@ const ContactUsArea = () => {
           {contactData.map((item, index) => (
             <div key={index} className="col-xl-4 col-lg-4 col-md-6 mb-30">
               <div
-                className={`tp-contact-us-content text-center ${item.extraClass || ""
-                  }`}
+                className="tp-contact-us-content text-center"
                 data-speed={item.speed}
               >
                 <div className="tp-contact-us-thumb d-flex justify-content-center">
@@ -53,6 +57,14 @@ const ContactUsArea = () => {
                 <div className="tp-contact-us-bottom">
                   <div className="tp-contact-us-info-details">
                     <h4 className="tp-contact-us-info-title">{item.title}</h4>
+                    {item.company && (
+                      <p className="tp-contact-us-company mb-2">{item.company}</p>
+                    )}
+                    {item.address && (
+                      <p className="tp-contact-us-address mb-3 text-muted small">
+                        {item.address}
+                      </p>
+                    )}
                     <Link href={`mailto:${item.email}`}>{item.email}</Link>
                     <Link href={`tel:${item.phone}`}>{item.phone}</Link>
                   </div>

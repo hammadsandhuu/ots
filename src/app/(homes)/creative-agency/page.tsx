@@ -2,7 +2,7 @@ import CreativeAgencyMain from '@/views/homes/creative-agency/CreativeAgencyMain
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: "Agntix - Creative Agency Light",
+    title: "OTS - Creative Agency Light",
 };
 
 const page = () => {

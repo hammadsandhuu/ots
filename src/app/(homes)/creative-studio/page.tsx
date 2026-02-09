@@ -3,7 +3,7 @@ import CreativeStudioMain from '@/views/homes/creative-studio/CreativeStudioMain
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: "Agntix - Creative Studio Light",
+    title: "OTS - Creative Studio Light",
 };
 
 const page = () => {

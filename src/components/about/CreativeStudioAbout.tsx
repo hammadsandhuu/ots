@@ -25,7 +25,7 @@ const CreativeStudioAbout = () => {
                                             <ButtonBlurFilter />
                                         </span>
                                         <span className="tp-btn-black-filter d-inline-flex align-items-center" style={{ filter: 'url(#buttonFilter1)' }}>
-                                            <span className="tp-btn-black-text">About Agntix</span>
+                                            <span className="tp-btn-black-text">About OTS</span>
                                             <span className="tp-btn-black-circle">
                                                 <ArrowSvg />
                                             </span>

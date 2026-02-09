@@ -2,7 +2,7 @@ import MobileApplicationMain from '@/views/homes/mobile-application/MobileApplic
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: "Agntix - Mobile Application Light",
+    title: "OTS - Mobile Application Light",
 };
 
 const page = () => {

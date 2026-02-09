@@ -8,7 +8,7 @@ const BlogSidebarTags = () => {
                 <Link href="#">Design Trends</Link>
                 <Link href="#">Development</Link>
                 <Link href="#">Lifestyle</Link>
-                <Link href="#">Agntix</Link>
+                <Link href="#">OTS</Link>
             </div>
         </div>
     );

@@ -15,7 +15,7 @@ const ArchitectureHubAbout = () => {
                     <div className="row align-items-end">
                         <div className="col-xl-8 col-lg-8">
                             <div className="ar-about-title-box">
-                                <span className="tp-section-subtitle-satisfy mb-20 tp_fade_anim" data-delay=".3">Agntix Office</span>
+                                <span className="tp-section-subtitle-satisfy mb-20 tp_fade_anim" data-delay=".3">OTS Office</span>
                                 <h3 className="tp-section-title-clash-600 fs-60 fw-400 mb-0 pb-40 tp_fade_anim" data-delay=".4">
                                     Through a unique combination of engineering,
                                     construction and design disciplines & expertise.

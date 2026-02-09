@@ -32,7 +32,7 @@ const UniqueAIImageHero = () => {
     return (
         <div className="ai-hero-area p-relative z-index-1">
             <div className="ai-hero-video">
-                <VideoPlayer videoUrl="https://html.aqlova.com/videos/agntix/agntix-video.mov" />
+                <VideoPlayer videoUrl="https://html.aqlova.com/videos/ots/ots-video.mov" />
             </div>
             <div className="container-fluid">
                 <div className="row align-items-center">

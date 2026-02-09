@@ -33,7 +33,7 @@ const PriceHero = () => {
                         <div className="col-lg-4"></div>
                         <div className="col-lg-8">
                             <div className="tp-faq-text tp_fade_anim">
-                                <p>Agntix is a beacon of best innovation and the dynamic <br /> parent a company of wealcoder and many other subsidiaries.</p>
+                                <p>OTS is a beacon of best innovation and the dynamic <br /> parent a company of wealcoder and many other subsidiaries.</p>
                             </div>
                         </div>
                     </div>

@@ -2,7 +2,7 @@ import BlogDetailsWithoutSidebar from '@/views/blogs/blog-details-without-sideba
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: "Agntix - Blog Details Without Sidebar Light",
+    title: "OTS - Blog Details Without Sidebar Light",
 };
 
 const page = () => {

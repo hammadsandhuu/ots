@@ -3,7 +3,7 @@ import BlogDeailsMain from "@/views/blogs/blog-details/BlogDeailsMain";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-    title: "Agntix - Blog Details",
+    title: "OTS - Blog Details",
 };
 
 const page = () => {

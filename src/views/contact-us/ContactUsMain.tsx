@@ -2,7 +2,6 @@
 import CursorAndBackgroundProvider from '@/components/provider/CustomCursorProvider';
 import ScrollSmoothProvider from '@/components/provider/ScrollSmoothProvider';
 import AnimationWrapper from '@/components/shared/Animation/AnimationWrapper';
-import CreativeAgencyFooter from '@/layouts/footers/CreativeAgencyFooter';
 import ContactUsForm from '@/components/contacts/ContactUsForm';
 import ContactUsAbout from '@/components/about/ContactUsAbout';
 import ContactUsArea from '@/components/contacts/ContactUsArea';

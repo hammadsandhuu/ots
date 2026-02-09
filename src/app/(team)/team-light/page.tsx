@@ -2,7 +2,7 @@ import TeamMain from '@/views/team/team-light/TeamMain';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: "Agntix - Team Light",
+    title: "OTS - Team Light",
 };
 
 const page = () => {

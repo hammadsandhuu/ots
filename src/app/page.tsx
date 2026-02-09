@@ -2,7 +2,7 @@ import DigitalMarketingMain from "@/views/homes/digital-marketing/DigitalMarketi
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Agntix - Digital Marketing Light",
+  title: "OTS - Ocean Trading Services",
 };
 
 export default function Home() {

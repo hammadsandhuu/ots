@@ -9,7 +9,7 @@ const ProjectDetailsTwoArea = ({ project }: ProjectDetailsTwoAreaProps) => {
         { label: "Client", value: "Client" },
         { label: "Role", value: project.categories?.[0] ?? "Logistics" },
         { label: "Duration", value: "2024-2025" },
-        { label: "Designer", value: "Agntix" },
+        { label: "Designer", value: "OTS" },
     ];
     const categories = project.categories ?? ["Logistics"];
 

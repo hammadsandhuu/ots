@@ -3,7 +3,7 @@ import { teamMembers } from '@/data/Team';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Agntix - Team Details",
+  title: "OTS - Team Details",
 };
 
 const page = () => {

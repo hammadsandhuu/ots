@@ -56,7 +56,7 @@ const CreativeStudioProject = () => {
                                         <ButtonBlurFilter filterId="buttonFilter1" />
                                     </span>
                                     <span className="tp-btn-black-filter d-inline-flex align-items-center" style={{ filter: 'url(#buttonFilter3)' }}>
-                                        <span className="tp-btn-black-text">About Agntix</span>
+                                        <span className="tp-btn-black-text">About OTS</span>
                                         <span className="tp-btn-black-circle">
                                             <ArrowSvg />
                                         </span>

@@ -2,7 +2,7 @@ import BrandShowcaseMain from '@/views/portfolios/brand-showcase/BrandShowcaseMa
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: "Agntix - Brand Showcase Light",
+    title: "OTS - Brand Showcase Light",
 };
 
 const page = () => {

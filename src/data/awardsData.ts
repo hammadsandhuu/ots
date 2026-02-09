@@ -105,7 +105,7 @@ export const portfolioAwardsData: awardDT[] = [
         year: '2025',
         recognition: 'Honors',
         platform: 'AWWWARDS',
-        project: 'Agntix',
+        project: 'OTS',
         image: awardImg7
     },
     {
@@ -145,7 +145,7 @@ export const portfolioAwardsData: awardDT[] = [
         year: '2020',
         recognition: 'Honors',
         platform: 'AWWWARDS',
-        project: 'Agntix Studio',
+        project: 'OTS Studio',
         image: awardImg12
     }
 ];

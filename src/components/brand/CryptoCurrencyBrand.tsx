@@ -73,7 +73,7 @@ const CryptoCurrencyBrand = () => {
                                 </div>
                                 <div className="tp_text_anim">
                                     <p>+88,500 high-performing teams <br />
-                                        at companies worldwide build with Agntix</p>
+                                        at companies worldwide build with OTS</p>
                                 </div>
                             </div>
                         </div>

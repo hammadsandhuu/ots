@@ -2,7 +2,7 @@ import DesignAgencyMain from '@/views/homes/design-agency/DesignAgencyMain';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: "Agntix - Design Agency Light",
+    title: "OTS - Design Agency Light",
 };
 
 const page = () => {

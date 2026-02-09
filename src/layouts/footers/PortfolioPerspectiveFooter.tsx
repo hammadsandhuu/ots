@@ -10,7 +10,7 @@ const PortfolioPerspectiveFooter = () => {
                 <div className="row">
                     <div className="col-xl-6 col-lg-6 col-md-6 col-6">
                         <div className="tp-perspective-social-info">
-                            <span>© {getCurrentYear()} | Agntix</span>
+                            <span>© {getCurrentYear()} | OTS</span>
                         </div>
                     </div>
                     <div className="col-xl-6 col-lg-6 col-md-6 col-6">

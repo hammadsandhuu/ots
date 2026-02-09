@@ -39,7 +39,7 @@ const TeamHero = () => {
                     <div className="col-lg-8">
                         <div className="tp-team-hero-text">
                             <div className="tp_fade_anim" data-delay=".5">
-                                <p>At Agntix, our team is our greatest asset. Comprised <br />
+                                <p>At OTS, our team is our greatest asset. Comprised <br />
                                     of creative thinkers, technical wizards, and strategic <br />
                                     visionaries, we work in harmony to bring your digital <br />
                                     dreams to life. <br />
