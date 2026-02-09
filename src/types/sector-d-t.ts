@@ -55,4 +55,8 @@ export interface SectorData {
     solutionItems?: ServiceSolutionItem[];
     /** Pricing plans for this sector */
     pricingPlans?: PricePlanDT[];
+    /** Gallery images for portfolio details gallery component */
+    galleryImages?: StaticImageData[];
+    /** Gallery images for portfolio details gallery two component */
+    galleryImagesTwo?: StaticImageData[];
 }

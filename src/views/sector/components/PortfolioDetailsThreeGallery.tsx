@@ -8,6 +8,11 @@ interface PortfolioDetailsThreeGalleryProps {
 const PortfolioDetailsThreeGallery = ({ sector }: PortfolioDetailsThreeGalleryProps) => {
     const galleryImages = sector.galleryImages;
 
+    // Return null if galleryImages doesn't exist
+    if (!galleryImages || !Array.isArray(galleryImages) || galleryImages.length === 0) {
+        return null;
+    }
+
     // Define layout for gallery images
     const galleryData = galleryImages.map((img, index) => ({
         id: index + 1,

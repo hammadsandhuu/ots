@@ -8,6 +8,11 @@ interface PortfolioDetailsThreeGalleryTwoProps {
 const PortfolioDetailsThreeGalleryTwo = ({ sector }: PortfolioDetailsThreeGalleryTwoProps) => {
     const galleryImages = sector.galleryImagesTwo;
 
+    // Return null if galleryImagesTwo doesn't exist
+    if (!galleryImages || !Array.isArray(galleryImages) || galleryImages.length === 0) {
+        return null;
+    }
+
     return (
         <div className="tp-pd-3-gallery-area">
             <div className="container-fluid">
