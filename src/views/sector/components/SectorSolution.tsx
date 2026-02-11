@@ -35,7 +35,7 @@ const SectorSolution = ({ data, title }: SectorSolutionProps) => {
 
     return (
         <div className="pp-service-details-solution-ptb pb-90">
-            <div className="container container-1230">
+            <div className="container">
                 {title && (
                     <div className="row mb-50">
                         <div className="col-lg-12">

@@ -10,7 +10,7 @@ const DigitalMarketingAbout = () => {
 
     return (
         <div className="dgm-about-area pt-120 pb-120">
-            <div className="container container-1230">
+            <div className="container">
                 <div className="row">
                     <div className="col-lg-6">
                         <div className="dgm-about-thumb-wrap p-relative">
@@ -25,8 +25,8 @@ const DigitalMarketingAbout = () => {
                                 <h4 className="tp-section-title-grotesk tp_fade_anim" data-delay=".5">
                                     Global  {" "}
                                     <span className="p-relative">
-                                    Logistics
-                                    <span className="tp-section-title-shape d-md-none">
+                                        Logistics
+                                        <span className="tp-section-title-shape d-md-none">
                                             <TeamTitleUnderline />
                                         </span>
                                         <span className="tp-section-title-shape d-none d-md-block">
@@ -47,8 +47,8 @@ const DigitalMarketingAbout = () => {
                             <div className="dgm-about-content">
                                 <div className="tp_fade_anim" data-delay=".3">
                                     <p>
-                                    OTS is the world's leading global logistics provider — we expertly facilitate industry and commerce in the international exchange of goods through land transport.
-With over 100 years of experience, we provide comprehensive logistics solutions for companies around the world. Our global network of partners ensures seamless, efficient transport services across the globe.
+                                        OTS is the world's leading global logistics provider — we expertly facilitate industry and commerce in the international exchange of goods through land transport.
+                                        With over 100 years of experience, we provide comprehensive logistics solutions for companies around the world. Our global network of partners ensures seamless, efficient transport services across the globe.
                                     </p>
                                 </div>
                                 <div className="tp_fade_anim" data-delay=".5">

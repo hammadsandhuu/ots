@@ -92,7 +92,7 @@ const SectorHero = ({ sector }: SectorHeroProps) => {
                             </div>
 
                             {/* Contact Us CTA Box */}
-                            <div className="sector-hero-thumb d-none d-lg-block">
+                            {/* <div className="sector-hero-thumb d-none d-lg-block">
                                 <div
                                     className="sector-hero-text-box d-none d-md-block"
                                     style={{ backgroundImage: `url(${heroTextShape.src})` }}
@@ -107,7 +107,7 @@ const SectorHero = ({ sector }: SectorHeroProps) => {
                                         </span>
                                     </Link>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                         <div className="des-portfolio-content sector-detail-hero-content">
                             <div className="container container-1430">

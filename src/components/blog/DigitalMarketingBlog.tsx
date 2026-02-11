@@ -7,7 +7,7 @@ import Link from 'next/link';
 const DigitalMarketingBlog = () => {
     return (
         <div className="dgm-blog-area pt-120 pb-120">
-            <div className="container container-1330">
+            <div className="container">
                 <div className="dgm-blog-title-wrap mb-60">
                     <div className="row align-items-end">
                         <div className="col-lg-6 col-md-8">

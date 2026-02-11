@@ -18,7 +18,7 @@ const ServiceOverview = ({ service }: ServiceOverviewProps) => {
 
     return (
         <div className="pp-service-details-overview-ptb pt-140 pb-110">
-            <div className="container container-1230">
+            <div className="container">
                 <div className="row">
                     <div className="col-lg-12">
                         <div className="pp-service-details-overview-heading">

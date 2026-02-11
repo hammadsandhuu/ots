@@ -9,7 +9,7 @@ const AboutUsHero = () => {
             {/* <div className="ar-about-us-4-shape">
                 <Image src={aboutShape} alt="about shape" />
             </div> */}
-            <div className="container container-1230">
+            <div className="container">
                 <div className="ar-about-us-4-hero-ptb">
                     <div className="row justify-content-center">
                         <div className="col-xl-12">

@@ -14,6 +14,7 @@ import DigitalMarketingStep from '@/components/step/DigitalMarketingStep';
 import DigitalMarketingBlog from '@/components/blog/DigitalMarketingBlog';
 import DigitalMarketingTeam from '@/components/team/DigitalMarketingTeam';
 import BackToTop from '@/components/shared/BackToTop/BackToTop';
+import InnerPageHeader from '@/layouts/headers/InnerPageHeader';
 
 const DigitalMarketingMain = () => {
     return (
@@ -24,22 +25,22 @@ const DigitalMarketingMain = () => {
                         <div id="ball"></div>
                     </div>
                     <BackToTop />
-                    <DigitalMarketingHeader />
-
+                    {/* <DigitalMarketingHeader /> */}
+<InnerPageHeader/>
                     <div id="smooth-wrapper">
                         <div id="smooth-content" className='body-padding'>
                             {/* Main Content Sections */}
                             <main>
                                 <DigitalMarketingHero />
                                 <DigitalMarketingBrandTwo />
-                                <DigitalMarketingAbout />
+                                {/* <DigitalMarketingAbout /> */}
                                 <DigitalMarketingStep />
                                 <DigitalMarketingService />
                                 <DigitalMarketingBrand />
                                 <DigitalMarketingProject />
                                 <DigitalMarketingTeam />
-                                <DigitalMarketingTestimonial />
                                 <DigitalMarketingBlog />
+                                <DigitalMarketingTestimonial />
                             </main>
                             <DigitalMarketingFooter />
                         </div>

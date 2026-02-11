@@ -2,12 +2,12 @@ import Link from 'next/link';
 
 const DigitalMarketingStep = () => {
     return (
-        <div className="dgm-step-area pb-50">
-            <div className="container container-1230">
+        <div className="dgm-step-area pb-50 pt-120">
+            <div className="container container-1750">
                 <div className="row align-items-end">
                     <div className="col-xl-3 col-lg-4 col-md-6">
                         <div className="dgm-step-item p-relative dgm-step-space-1 mb-80">
-                            <h4 className="dgm-step-title mb-25">From Pickup  <br /> to Delivery (Made Easy)</h4>
+                            <h4 className="dgm-step-title mb-25"> Ocean Trading Services <br /> to Delivery (Made Easy)</h4>
                             <Link className="tp-btn-secondary green-solid" href="/contact">
                                 <i>
                                     <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">

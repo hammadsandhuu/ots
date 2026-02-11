@@ -26,7 +26,7 @@ const ServiceDetailsTwoCounter = ({ service }: ServiceDetailsTwoCounterProps) =>
 
     return (
         <div className="pp-service-details-bottom">
-            <div className="container container-1230">
+            <div className="container">
                 <div className="row g-3 g-md-4">
                     {counterData.map((item, index) => (
                         <div className="col-12 col-md-6 col-lg-4" key={index}>

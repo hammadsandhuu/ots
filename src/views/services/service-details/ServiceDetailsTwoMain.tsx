@@ -36,12 +36,12 @@ const ServiceDetailsTwoMain = ({ service }: ServiceDetailsTwoMainProps) => {
                         <div id="smooth-content">
                             <main>
                                 <ServiceDetailsTwoAbout service={serviceData} />
-                                <ServiceDetailsTwoBanner service={serviceData} />
                                 <ServiceOverview service={serviceData} />
                                 <ServiceSolutionTwo service={serviceData} />
                                 <ServiceDetailsTwoProcess service={serviceData} />
                                 <ServiceDetailsTwoPrice service={serviceData} />
                                 <ServiceThreeFaq faqs={serviceData.faqs} accordionId={`service-${serviceData.slug ?? serviceData.id}`} />
+                                {/* <ServiceDetailsTwoBanner service={serviceData} /> */}
                             </main>
                             <DigitalMarketingFooter />
                         </div>

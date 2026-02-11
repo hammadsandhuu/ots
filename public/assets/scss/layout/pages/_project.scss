@@ -37,21 +37,26 @@
         & .swiper-slide{
             height: auto;
         }
+        & .swiper-slide-active .dgm-project-item{
+            transform: scale(1.08);
+        }
     }
     &-item{
         width: 100%;
         height: 100%;
         overflow: hidden;
         border-radius: 12px;
+        transition: transform 0.5s ease;
     }
     &-thumb{
         position: relative;
         width: 100%;
         overflow: hidden;
         border-radius: 12px;
-        aspect-ratio: 16 / 10;
+        aspect-ratio: 4 / 3;
+        transition: aspect-ratio 0.5s ease;
         @media #{$md,$xs}{
-            aspect-ratio: 16 / 9;
+            aspect-ratio: 16 / 10;
         }
         & img{
             object-fit: cover;

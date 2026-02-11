@@ -9,8 +9,7 @@ import { TwitterThree } from "@/svg/social-icons/Twitter"
 import { ArrowFour, ArrowNineteen } from "@/svg/ArrowIcons"
 import { DribbleTwo, HeroTextBoxSvg } from "@/svg"
 import Link from "next/link"
-
-const HERO_VIDEO_SRC = "/assets/video/5.mp4"
+import { EmailIconThree } from "@/svg"
 
 const HERO_CONTENT = {
     title: "Global Freight Forwarding",
@@ -41,6 +40,29 @@ const FUN_FACTS = [
         ),
         delay: ".9",
     },
+    {
+        id: 3,
+        end: 25,
+        suffix: "+",
+        text: (
+            <>
+                Years of Experience <br /> in the Industry
+            </>
+        ),
+        delay: "1.1",
+    },
+    {
+        id: 4,
+        end: 4.9,
+        suffix: "★",
+        text: (
+            <>
+                Rating Covered <br /> Globally
+            </>
+        ),
+        delay: "1.3",
+    },
+
 ] as const
 
 const SOCIAL_LINKS = [
@@ -50,19 +72,16 @@ const SOCIAL_LINKS = [
     { id: "dribbble", href: "#", Icon: DribbleTwo },
 ] as const
 
-const TEXT_BOX = {
-    copy: "World-class Shipping Services and Solutions.",
-    ctaHref: "/contact-us",
-}
+
 
 const DigitalMarketingHero = () => {
     return (
-        <div className="dgm-hero-top pt-20">
+        <div className="dgm-hero-top pt-5">
             <div className="dgm-hero-ptb grey-bg-2 fix z-index-1 p-relative">
                 <div className="dgm-hero-bg" />
                 <div className="dgm-hero-video">
-                    <video autoPlay muted loop playsInline>
-                        <source src={"/assets/video/5.mp4"} type="video/mp4" />
+                    <video autoPlay muted loop >
+                        <source src={"/assets/videos/1.mp4"} type="video/mp4" />
                     </video>
                     <div className="dgm-hero-video-overlay" />
                 </div>
@@ -93,6 +112,17 @@ const DigitalMarketingHero = () => {
                                     {HERO_CONTENT.description}
                                 </p>
                             </div>
+                            {/* <div className="tp-header-btn d-none d-md-flex">
+                                        <Link className="tp-btn-secondary green-solid" href="/contact">
+                                            <i>
+                                                <EmailIconThree colorName="currentcolor" strokeWidth="1.5" />
+                                            </i>
+                                            <span>
+                                                <span className="text-1">Send a message</span>
+                                                <span className="text-2">Send a message</span>
+                                            </span>
+                                        </Link>
+                                    </div> */}
                             <div className="dgm-hero-funfact-wrap">
                                 <div className="row row-cols-auto g-5">
                                     {FUN_FACTS.map((item) => (
@@ -117,7 +147,7 @@ const DigitalMarketingHero = () => {
                     </div>
                 </div>
 
-                <div className="dgm-hero-thumb d-none d-lg-block">
+                {/* <div className="dgm-hero-thumb d-none d-lg-block">
                     <div
                         className="dgm-hero-text-box d-none d-md-block"
                         style={{ backgroundImage: `url(${heroTextShape.src})` }}
@@ -132,7 +162,7 @@ const DigitalMarketingHero = () => {
                             </span>
                         </Link>
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     )

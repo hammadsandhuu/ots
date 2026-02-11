@@ -58,10 +58,10 @@ const ServiceThreeFaq = ({ faqs: propFaqs, accordionId = "accordionExample1" }: 
 
     return (
         <div className="app-faq-area service-faq-style p-relative pb-140">
-            <div className="container container-1230">
+            <div className="container">
                 <div className="row justify-content-center">
                     <div className="col-lg-8">
-                        <div className="app-faq-heading p-relative mb-80 text-center">
+                        <div className="app-faq-heading p-relative text-center">
                             <h3 className="tp-section-title-mango fs-100">Frequently asked questions</h3>
                         </div>
                     </div>

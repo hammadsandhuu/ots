@@ -119,6 +119,9 @@
     letter-spacing: -0.04em;
     color: var(--tp-common-black);
     font-family: var(--tp-ff-grotesk);
+    @media (min-width: 992px) {
+      margin-top: 150px;
+    }
     @media (max-width: 1399.98px) {
       font-size: 100px;
     }

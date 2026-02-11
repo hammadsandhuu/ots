@@ -19,7 +19,7 @@ const ServiceSolutionTwo = ({ service }: ServiceSolutionTwoProps) => {
 
     return (
         <div className="pp-service-details-solution-ptb pb-90">
-            <div className="container container-1230">
+            <div className="container">
                 <div className="row">
                     {displayItems.map((item, index) => {
                         const IconComponent = item.svgIcon && item.svgIcon in SERVICE_ICON_MAP

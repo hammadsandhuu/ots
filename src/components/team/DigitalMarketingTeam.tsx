@@ -25,7 +25,7 @@ const DigitalMarketingTeam = () => {
 
     return (
         <div className="dgm-team-area pt-120 pb-80">
-            <div className="container container-1330">
+            <div className="container">
                 <div className="dgm-team-top-wrap mb-60">
                     <div className="row align-items-end">
                         <div className="col-md-8">

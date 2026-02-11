@@ -51,11 +51,11 @@ export const HeroTextBoxSvg = ({
   <span
     className={`hero-text-box-label ${className || ''}`}
     style={{
-      fontFamily: "'Satisfy', cursive",
-      fontSize: "40px",
+      fontFamily: "var(--tp-ff-grotesk)",
+      fontSize: "27px",
       color: fill,
       display: "inline-block",
-      fontWeight: 400,
+      fontWeight: 700,
       letterSpacing: "0.5px",
       lineHeight: 1.2,
     }}

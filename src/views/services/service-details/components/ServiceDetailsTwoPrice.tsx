@@ -12,7 +12,7 @@ const ServiceDetailsTwoPrice = ({ service }: ServiceDetailsTwoPriceProps) => {
 
   return (
     <div className="tp-service-5-price-ptb pt-160 pb-140">
-      <div className="container container-1230">
+        <div className="container">
         <div className="row">
           <div className="col-lg-12">
             <div className="tp-service-5-price-heading service-details d-flex align-items-start pb-70 tp_fade_anim">

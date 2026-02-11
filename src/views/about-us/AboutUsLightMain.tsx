@@ -29,8 +29,8 @@ const AboutUsLightMain = () => {
                         <div id="smooth-content">
                             <main>
                                 <AboutUsHero />
-                                <AboutUsBrand />
-                                <AboutUsBanner/>
+                                {/* <AboutUsBrand />
+                                <AboutUsBanner/> */}
                                 <DigitalMarketingAbout />
                                 <DigitalMarketingStep />
                                 <DigitalMarketingService />

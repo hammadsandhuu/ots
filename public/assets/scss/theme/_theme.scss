@@ -199,12 +199,18 @@ html{
 /*---------------------------------
 	typography css start 
 ---------------------------------*/
+* {
+	font-family: var(--tp-ff-grotesk) !important;
+}
+.fa, .fas, .far, .fal, .fab, .fad, .fat, [class^="fa-"], [class*=" fa-"] {
+	font-family: var(--tp-ff-fontawesome) !important;
+}
 body {
 	font-size: 14px;
 	line-height: 26px;
 	font-weight: normal;
 	color: var(--tp-text-body);
-	font-family: var(--tp-ff-body);
+	font-family: var(--tp-ff-grotesk);
 }
 
 img{
@@ -264,7 +270,7 @@ p {
 	line-height: 1.56;
 	margin-bottom: 15px;
 	letter-spacing: -0.02em;
-	font-family: var(--tp-ff-p);
+	font-family: var(--tp-ff-grotesk);
 	color: var(--tp-text-body);
 }
 

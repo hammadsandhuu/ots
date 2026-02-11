@@ -25,11 +25,8 @@ export interface SectorData {
     categories: string[];
     year: string;
     heroImage: StaticImageData;
-    /** Hero description (shown on hero image) - different from overview description */
     heroDescription?: string;
-    /** Fun facts displayed on hero section */
     heroFunFacts?: SectorHeroFunFact[];
-    /** Contact CTA text displayed in hero Contact Us box - different for each sector */
     heroContactText?: string;
     overview: {
         subtitle: string;
@@ -49,14 +46,9 @@ export interface SectorData {
         image: StaticImageData;
     };
     faqs?: FaqEntry[];
-    /** Process steps for how we deliver this sector's services */
     processSteps?: SectorProcessStep[];
-    /** Solution items/services related to this sector */
     solutionItems?: ServiceSolutionItem[];
-    /** Pricing plans for this sector */
     pricingPlans?: PricePlanDT[];
-    /** Gallery images for portfolio details gallery component */
     galleryImages?: StaticImageData[];
-    /** Gallery images for portfolio details gallery two component */
     galleryImagesTwo?: StaticImageData[];
 }

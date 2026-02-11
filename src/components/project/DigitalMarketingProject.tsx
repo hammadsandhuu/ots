@@ -3,46 +3,31 @@ import { Navigation, Keyboard, Controller } from "swiper/modules";
 import { LeftArrowIcon, RightArrowIcon } from "@/svg";
 import { Swiper, SwiperSlide } from "swiper/react";
 import type { Swiper as SwiperType } from 'swiper';
-import { useRef, useState } from 'react';
+import { useRef } from 'react';
 import { TitleShape } from "@/svg/TitleShape";
 import Image from 'next/image';
 import Link from 'next/link';
 import { projects } from "@/data/projects/Projects";
 
 const DigitalMarketingProject = () => {
-    const [controlledSwiper, setControlledSwiper] = useState<SwiperType | null>(null);
     const imageSwiperRef = useRef<SwiperType | null>(null);
     const textSwiperRef = useRef<SwiperType | null>(null);
-    const isProgrammaticChange = useRef(false);
 
     const handleImageSwiperInit = (swiper: SwiperType) => {
         imageSwiperRef.current = swiper;
+        // Sync if text swiper is already initialized
+        if (textSwiperRef.current) {
+            swiper.controller.control = textSwiperRef.current;
+            textSwiperRef.current.controller.control = swiper;
+        }
     };
 
     const handleTextSwiperInit = (swiper: SwiperType) => {
         textSwiperRef.current = swiper;
-        setControlledSwiper(swiper);
-    };
-
-    // Handle image swiper changes
-    const handleImageSlideChange = (swiper: SwiperType) => {
-        if (!isProgrammaticChange.current && textSwiperRef.current) {
-            isProgrammaticChange.current = true;
-            textSwiperRef.current.slideTo(swiper.realIndex);
-            setTimeout(() => {
-                isProgrammaticChange.current = false;
-            }, 100);
-        }
-    };
-
-    // Handle text swiper changes
-    const handleTextSlideChange = (swiper: SwiperType) => {
-        if (!isProgrammaticChange.current && imageSwiperRef.current) {
-            isProgrammaticChange.current = true;
-            imageSwiperRef.current.slideTo(swiper.realIndex);
-            setTimeout(() => {
-                isProgrammaticChange.current = false;
-            }, 100);
+        // Sync if image swiper is already initialized
+        if (imageSwiperRef.current) {
+            imageSwiperRef.current.controller.control = swiper;
+            swiper.controller.control = imageSwiperRef.current;
         }
     };
 
@@ -111,8 +96,6 @@ const DigitalMarketingProject = () => {
                         }}
                         modules={[Navigation, Keyboard, Controller]}
                         onSwiper={handleImageSwiperInit}
-                        onSlideChange={handleImageSlideChange}
-                        controller={{ control: controlledSwiper }}
                     >
                         {projects.map((project) => (
                             <SwiperSlide key={`img-${project.title}`}>
@@ -143,8 +126,6 @@ const DigitalMarketingProject = () => {
                         speed={1500}
                         modules={[Controller]}
                         onSwiper={handleTextSwiperInit}
-                        onSlideChange={handleTextSlideChange}
-                        controller={{ control: controlledSwiper }}
                         style={{ height: '100px' }}
                     >
                         {projects.map((project) => (

@@ -17,7 +17,7 @@ const ServiceDetailsTwoProcess = ({ service }: ServiceDetailsTwoProcessProps) =>
 
     return (
         <div className="pp-service-details-process-ptb pt-130 pb-90" style={{ backgroundColor: "#F6F6F9" }}>
-            <div className="container container-1350">
+            <div className="container">
                 <div className="row">
                     <div className="col-lg-12">
                         <div className="pp-service-details-process-heading text-center pb-100 tp_fade_anim" data-delay=".3">

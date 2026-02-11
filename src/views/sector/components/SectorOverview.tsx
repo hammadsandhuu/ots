@@ -16,7 +16,6 @@ interface SectorOverviewProps {
 const SectorOverview = ({ data, title = "Overview" }: SectorOverviewProps) => {
     const { addToRefs } = useHoverEffect();
     
-    // Extract data based on type
     const isSector = 'overview' in data;
     const sector = isSector ? (data as SectorData) : null;
     const service = !isSector ? (data as ServiceDetailData) : null;
@@ -41,13 +40,12 @@ const SectorOverview = ({ data, title = "Overview" }: SectorOverviewProps) => {
     const displayTitle = isSector ? `${sector?.title} Overview` : title;
     const imageSrc = typeof overviewImage === 'string' ? overviewImage : overviewImage.src;
 
-    // Additional details for sectors
     const challengeDescription = isSector ? sector?.challenge?.description : null;
     const solutionDescription = isSector ? sector?.solution?.description : null;
 
     return (
         <div className="pp-service-details-overview-ptb pt-140 pb-110">
-            <div className="container container-1230">
+            <div className="container">
                 <div className="row">
                     <div className="col-lg-12">
                         <div className="pp-service-details-overview-heading">
@@ -64,8 +62,6 @@ const SectorOverview = ({ data, title = "Overview" }: SectorOverviewProps) => {
                             {overviewText && (
                                 <p className="mb-30">{overviewText}</p>
                             )}
-                            
-                            {/* Additional description paragraphs for sectors */}
                             {isSector && challengeDescription && (
                                 <div className="mb-30">
                                     <h5 className="mb-15" style={{ fontSize: '18px', fontWeight: '600' }}>
@@ -120,7 +116,7 @@ const SectorOverview = ({ data, title = "Overview" }: SectorOverviewProps) => {
                                         Key Capabilities
                                     </h5>
                                     <div className="pp-service-details-overview-list">
-                                        <ul>
+                                        <ul className="d-flex flex-column list-unstyled">
                                             {sector.solutionItems.slice(0, 4).map((item, index) => (
                                                 <li key={index}>
                                                     <span><CheckIconThree /></span>
